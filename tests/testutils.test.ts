@@ -75,17 +75,13 @@ describe('Test utils', () => {
     expect(parsedCommand).toEqual(expected)
   })
   it('getParsedCommand parses a command string without subcommand as expected', () => {
-    const commandString = '/about lang: en'
+    const commandString = '/about'
     const parsedCommand = getParsedCommand(commandString, aboutCommandData)
     const expected = {
       name: 'about',
       id: 'about',
       type: 1,
-      options: [{
-        value: 'en',
-        type: 3,
-        name: 'lang'
-      }]
+      options: []
     }
     expect(parsedCommand).toEqual(expected)
   })

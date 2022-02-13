@@ -4,7 +4,7 @@ import { Interaction, TextChannel } from 'discord.js'
 import mappings from '@utils/mappings'
 import { SlashCommandBuilder } from '@discordjs/builders'
 import str from '@stringsLang'
-const { classEmoji } = mappings
+const { classEmoji, roleEmoji } = mappings
 
 export const commandData = new SlashCommandBuilder()
   .setName('party-create')
@@ -40,7 +40,7 @@ export default class PartyCreateCommand extends PartyCommand {
     const name = this.interaction.options.getString('name')
     const description = this.interaction.options.getString('description') || ''
     const date = this.interaction.options.getString('date') || 'To be defined'
-    const level = this.interaction.options.getString('level') || '1-215' 
+    const level = this.interaction.options.getString('level') || '1-40' 
     const slots = this.interaction.options.getNumber('slots') || 6
 
     const options = {
@@ -58,6 +58,10 @@ export default class PartyCreateCommand extends PartyCommand {
     for (let index = 0; index < classEmojis.length; index++) {
       await sentMessage.react(classEmojis[index])
     }
+    const roleEmojis = Object.keys(roleEmoji)
+    for (let index = 0; index < roleEmojis.length; index++) {
+      await sentMessage.react(roleEmojis[index])
+    }
   }
 
   private mountPartyEmbed (identifier: number, options: PartyOptions): PartialEmbed {
@@ -69,7 +73,7 @@ export default class PartyCreateCommand extends PartyCommand {
     const memberSlots = Array(slots).fill(':small_orange_diamond:')
     memberSlots[0] = `:small_orange_diamond: <@${this.interaction.user.id}> | `
     const embed = {
-      title: `<:dungeon:888873201512362035> Party: ${options.name}`,
+      title: `:placard: Party: ${options.name}`,
       fields: [
         {
           name: ':label: ID',

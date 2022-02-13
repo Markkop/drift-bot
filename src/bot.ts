@@ -8,8 +8,8 @@ import {
   EquipCommand,
   AboutCommand,
   RecipeCommand,
-  // PartyCreateCommand,
-  // PartyUpdateCommand,
+  PartyCreateCommand,
+  PartyUpdateCommand,
   HelpCommand,
   ConfigCommand
  } from '@commands'
@@ -21,8 +21,8 @@ const commandsMap = {
   equip: EquipCommand,
   about: AboutCommand,
   recipe: RecipeCommand,
-  // 'party-create': PartyCreateCommand,
-  // 'party-update': PartyUpdateCommand,
+  'party-create': PartyCreateCommand,
+  'party-update': PartyUpdateCommand,
   help: HelpCommand,
   config: ConfigCommand
 }

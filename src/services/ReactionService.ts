@@ -1,10 +1,9 @@
 import { MessageReaction, User } from 'discord.js'
-import { ItemManager } from '@managers'
 import { handleReactionError } from '@utils/handleError'
-import { GuildConfig } from '@types'
+import { GuildConfig, PartyActions } from '@types'
 import { PartyReaction } from '@commands'
 import mappings from '@utils/mappings'
-const { classEmoji } = mappings
+const { classEmoji, roleEmoji } = mappings
 
 class ReactionService {
   private messagePool = []
@@ -27,11 +26,12 @@ class ReactionService {
     }
   }
 
-  private handlePartyReaction(reaction: MessageReaction, user: User, guildConfig: GuildConfig, action: 'join'|'leave') {
+  private handlePartyReaction(reaction: MessageReaction, user: User, guildConfig: GuildConfig, action: PartyActions) {
     const isPartyMessage = reaction.message.embeds[0]?.title?.includes('Party')
     if (isPartyMessage) {
       const className = classEmoji[`<:${reaction.emoji.name}:${reaction.emoji.id}>`]
-      if (!className) return
+      const roleName = roleEmoji[`<:${reaction.emoji.name}:${reaction.emoji.id}>`]
+      if (!className && !roleName) return
       const PartyReactionCommand = new PartyReaction(reaction, user, guildConfig)
       this.lockMessage(reaction.message.id, () => PartyReactionCommand.execute(action))
     }

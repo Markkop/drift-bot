@@ -4,9 +4,9 @@ export default {
     '<:essence_mage:942449330445500457>': 'Essence Mage'
   },
   roleEmoji: {
-    '<:dps:942449808701001738>': 'DPS',
-    '<:support:942449809074290698>': 'Support',
-    '<:tank:942449811112722493>': 'Tank',
+    '<:dps:942566105736687676>': 'DPS',
+    '<:support:942566105917030420>': 'Support',
+    '<:tank:942566105795416154>': 'Tank',
   },
   numberEmoji: {
     1: '1️⃣',

@@ -9,6 +9,8 @@ export type DefaultGuildConfig = {
   partyChannel: string
 }
 
+export type PartyActions = 'join'|'leave'
+
 export type PartialEmbed = Partial<MessageEmbed>
 
 export type Stats = Record<string, string>

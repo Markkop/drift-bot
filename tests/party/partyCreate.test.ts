@@ -12,7 +12,7 @@ describe('PartyCreateCommand', () => {
     const command = getParsedCommand(stringCommand, commandData)
     const spy = await executeCommandWithMockOptionsAndSpySentMessage(PartyCreateCommand, {command})
     expect(spy).toHaveBeenNthCalledWith(1, embedContainingWithoutFetchReply({
-      title: '<:dungeon:888873201512362035> Party: group1',
+      title: ':placard: Party: group1',
       fields: [
         { name: ':label: ID', value: '1', inline: true },
         { name: ':calendar_spiral: Date', value: '10/10 21:00', inline: true },
@@ -33,7 +33,7 @@ describe('PartyCreateCommand', () => {
       partyChannel: {
         messages: [
           { embed: {
-              title: '<:dungeon:888873201512362035> Party: group2',
+              title: ':placard: Party: group2',
               fields: [
                 { name: ':label: ID', value: '2', inline: true },
                 { name: ':calendar_spiral: Date', value: '10/10 21:00', inline: true },
