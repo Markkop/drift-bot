@@ -2,7 +2,7 @@ name: Build - Test - Deploy (Staging)
 
 on:
   push:
-    branches: [ feat/slash-commands ]
+    branches: [ staging ]
 
 jobs:
   build:
