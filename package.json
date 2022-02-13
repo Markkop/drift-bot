@@ -1,0 +1,73 @@
+{
+  "name": "drift-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot that provides information about Zenith VR MMORPG",
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "main": "dist/bot.js",
+  "scripts": {
+    "start": "npm run build && node dist/bot.js",
+    "dev": "npm run build && ts-node src/bot.ts",
+    "build": "tsc",
+    "import": "npm run build && ts-node src/importers/import.ts",
+    "lint": "eslint .",
+    "test": "jest tests/ --runInBand",
+    "clean": "rm package-lock.json && rm -rf node_modules"
+  },
+  "keywords": [
+    "zenith",
+    "mmorpg",
+    "discord",
+    "nodejs"
+  ],
+  "author": "Mark Kop",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.21.1",
+    "codecov": "^3.7.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^8.4.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.10.5",
+    "node-cron": "^2.0.3",
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.5",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@types/jest": "^27.1.3",
+    "@types/node": "^14.17.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "babel-jest": "^27",
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard-jsdoc": "^9.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.4.0"
+  },
+  "_moduleAliases": {
+    "@types": "dist/types.js",
+    "@stringsLang": "dist/stringsLang.js",
+    "@managers": "dist/managers",
+    "@commands": "dist/commands",
+    "@baseCommands": "dist/baseCommands",
+    "@utils": "dist/utils"
+  }
+}

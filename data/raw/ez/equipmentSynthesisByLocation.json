@@ -1,0 +1,6521 @@
+[
+  {
+    "location": "Fractured Plains",
+    "items": [
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Bodyplate",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "139",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Steel-Toes",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "59",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Gauntlets",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "86",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Legguards",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "112",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Steel",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "174",
+          "Primary Stat": "3"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "188",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Bodyplate",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "163",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Steel-Toes",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "74",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Gauntlets",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "104",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Legguards",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Steel",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "217",
+          "Primary Stat": "6"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "350",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Cloak",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "139",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Softsoles",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "59",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Grasps",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "86",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Legwraps",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "112",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "156",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Catalyst",
+        "rarity": "Uncommon",
+        "level": "5",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "32",
+          "Primary Stat": "3"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "188",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Cloak",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "163",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Softsoles",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "74",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Grasps",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "104",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Legwraps",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "306",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      },
+      {
+        "location": "Fractured Plains",
+        "name": "Galian Catalyst",
+        "rarity": "Unique",
+        "level": "7",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "40",
+          "Primary Stat": "6"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "350",
+        "components": [
+          "25 dancing sparks",
+          "15 broken sylphid horns"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Galian Valley",
+    "items": [
+      {
+        "location": "Galian Valley",
+        "name": "Galian Bodyplate",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "164",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Steel-Toes",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "70",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Gauntlets",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "101",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Legguards",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Steel",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "192",
+          "Primary Stat": "4"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "300",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Bodyplate",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "189",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Steel-Toes",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "86",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Gauntlets",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "120",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Legguards",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "155",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Steel",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "238",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "500",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Cloak",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "164",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Softsoles",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "70",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Grasps",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "101",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Legwraps",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "250",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Catalyst",
+        "rarity": "Uncommon",
+        "level": "8",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "36",
+          "Primary Stat": "4"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "300",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Cloak",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "189",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Softsoles",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "86",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Grasps",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "120",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Legwraps",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "155",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      },
+      {
+        "location": "Galian Valley",
+        "name": "Galian Catalyst",
+        "rarity": "Unique",
+        "level": "10",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "44",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "500",
+        "components": [
+          "25 dancing sparks",
+          "15 exiled's broken masks"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Amarite Forest",
+    "items": [
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Chestplate",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "189",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Boots",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "81",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Gloves",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "117",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Chausses",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "153",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Blade",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "210",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "412",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Chestplate",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "216",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Boots",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "98",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Gloves",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "137",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Chausses",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "176",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Hardened Blade",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "259",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "650",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Robe",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "189",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Shoes",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "81",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Gloves",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "117",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Pants",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "153",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "344",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Uncommon",
+        "level": "11",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "39",
+          "Primary Stat": "5"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "412",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Robe",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "216",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Shoes",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "98",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Gloves",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "137",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Pants",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "176",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "569",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      },
+      {
+        "location": "Amarite Forest",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Unique",
+        "level": "13",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "47",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "650",
+        "components": [
+          "25 essence seeds",
+          "5 bent rivu bows"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Scarlet Vale",
+    "items": [
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Chestplate",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "214",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Boots",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "92",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Gloves",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Chausses",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "173",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Blade",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "228",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "525",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Chestplate",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "242",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Boots",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "110",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Gloves",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "154",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Chausses",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "198",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Hardened Blade",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "280",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "800",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Robe",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "214",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Shoes",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "92",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Gloves",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "133",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Pants",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "173",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "438",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Uncommon",
+        "level": "14",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "43",
+          "Primary Stat": "7"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "525",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Robe",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "242",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Shoes",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "110",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Gloves",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "154",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Pants",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "198",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "700",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      },
+      {
+        "location": "Scarlet Vale",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Unique",
+        "level": "16",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "51",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "800",
+        "components": [
+          "25 essence seeds",
+          "15 essence wolf's fangs"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Sporewood",
+    "items": [
+      {
+        "location": "Sporewood",
+        "name": "Hardened Chestplate",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "239",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Boots",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "103",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Gloves",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "148",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Chausses",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "194",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Blade",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "246",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "638",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Chestplate",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "268",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Boots",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "122",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Gloves",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "171",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Chausses",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "220",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Hardened Blade",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "301",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "950",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Robe",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "239",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Shoes",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "103",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Gloves",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "148",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Pants",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "194",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "531",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Uncommon",
+        "level": "17",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "46",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "638",
+        "components": [
+          "10 essence seeds"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Robe",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "268",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Shoes",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "122",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Gloves",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "171",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Pants",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "220",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "831",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      },
+      {
+        "location": "Sporewood",
+        "name": "Enchanted Elemental Projectile Launcher",
+        "rarity": "Unique",
+        "level": "19",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "55",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "950",
+        "components": [
+          "25 essence seeds",
+          "15 ent leaves"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Obsidian Fortress",
+    "items": [
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Chestplate",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "248",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Boots",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "106",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Gloves",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "153",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Chausses",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "201",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Steel",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "252",
+          "Primary Stat": "8"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "675",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Chestplate",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "277",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Boots",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "126",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Gloves",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "176",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Chausses",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Defender's Steel",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "308",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1000",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Robe",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "248",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Shoes",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "106",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Gloves",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "153",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Pants",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "201",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "562",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windcaller's Instrument",
+        "rarity": "Uncommon",
+        "level": "18",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "47",
+          "Primary Stat": "8"
+        },
+        "perks": [],
+        "zen": "675",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Robe",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "277",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Shoes",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "126",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Gloves",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "176",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windsong Pants",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "875",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      },
+      {
+        "location": "Obsidian Fortress",
+        "name": "Windcaller's Instrument",
+        "rarity": "Unique",
+        "level": "20",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "56",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1000",
+        "components": [
+          "25 mountain hearts",
+          "15 cultist totems"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Skysong Summit",
+    "items": [
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Chestplate",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "273",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Boots",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "117",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Gloves",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "169",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Chausses",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "221",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Steel",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "270",
+          "Primary Stat": "10"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "778",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Chestplate",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "304",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Boots",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "138",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Gloves",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "193",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Chausses",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "248",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Defender's Steel",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "329",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1150",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Robe",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "273",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Shoes",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "117",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Gloves",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "169",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Pants",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "221",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "656",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windcaller's Instrument",
+        "rarity": "Uncommon",
+        "level": "21",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "50",
+          "Primary Stat": "10"
+        },
+        "perks": [],
+        "zen": "778",
+        "components": [
+          "10 mountain hearts"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Robe",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "304",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Shoes",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "138",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Gloves",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "193",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windsong Pants",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "248",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1006",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      },
+      {
+        "location": "Skysong Summit",
+        "name": "Windcaller's Instrument",
+        "rarity": "Unique",
+        "level": "23",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "60",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1150",
+        "components": [
+          "25 mountain hearts",
+          "15 gargoyle's claws"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Radiant Coast",
+    "items": [
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "298",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "128",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "185",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "241",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "288",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "900",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "330",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "150",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "210",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "270",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "350",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1300",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Robe",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "298",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Shoes",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "128",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Gloves",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "185",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Pants",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "241",
+          "Primary Stat": "20"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "750",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider's Cannon",
+        "rarity": "Uncommon",
+        "level": "24",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "54",
+          "Primary Stat": "11"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "900",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Robe",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "330",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Shoes",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "150",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Gloves",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "210",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider Pants",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "270",
+          "Primary Stat": "26"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1138",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      },
+      {
+        "location": "Radiant Coast",
+        "name": "Waverider's Cannon",
+        "rarity": "Unique",
+        "level": "26",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "64",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1300",
+        "components": [
+          "25 primal pearls",
+          "15 shark teeth"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Turtletop",
+    "items": [
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "323",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "139",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "200",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "262",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "306",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1012",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "356",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "162",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "292",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "371",
+          "Primary Stat": "21"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1450",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Robe",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "323",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Shoes",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "139",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Gloves",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "200",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Pants",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "262",
+          "Primary Stat": "22"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "844",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider's Cannon",
+        "rarity": "Uncommon",
+        "level": "27",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "57",
+          "Primary Stat": "12"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1012",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Robe",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "356",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Shoes",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "162",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Gloves",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider Pants",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "292",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1269",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      },
+      {
+        "location": "Turtletop",
+        "name": "Waverider's Cannon",
+        "rarity": "Unique",
+        "level": "29",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "68",
+          "Primary Stat": "21"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1450",
+        "components": [
+          "25 primal pearls",
+          "15 gold doubloons"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Tangled Cove",
+    "items": [
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "349",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "149",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "216",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "282",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "324",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Chestplate",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "383",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Boots",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "174",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Gloves",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "244",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Chausses",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "313",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Tidekeeper's Sword",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "392",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1600",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Robe",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "349",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Shoes",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "149",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Gloves",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "216",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Pants",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "282",
+          "Primary Stat": "24"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "938",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider's Cannon",
+        "rarity": "Uncommon",
+        "level": "30",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "60",
+          "Primary Stat": "14"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 primal pearls"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Robe",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "383",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Shoes",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "174",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Gloves",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "244",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider Pants",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "313",
+          "Primary Stat": "32"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1400",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      },
+      {
+        "location": "Tangled Cove",
+        "name": "Waverider's Cannon",
+        "rarity": "Unique",
+        "level": "32",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "72",
+          "Primary Stat": "23"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1600",
+        "components": [
+          "25 primal pearls",
+          "15 water droplets"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "The Ramshackle",
+    "items": [
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Bodyplate",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "374",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Steel-Toes",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "160",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Gauntlets",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "231",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Legguards",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "303",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Steel",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "342",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1238",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Bodyplate",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "409",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Steel-Toes",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "186",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Gauntlets",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "260",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Legguards",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "335",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Steel",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "413",
+          "Primary Stat": "25"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Cloak",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "374",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Softsoles",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "160",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Grasps",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "231",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Legwraps",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "303",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1031",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Catalyst",
+        "rarity": "Uncommon",
+        "level": "33",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "64",
+          "Primary Stat": "15"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1238",
+        "components": [
+          "10 dancing sparks"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Cloak",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "409",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Softsoles",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "186",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Grasps",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "260",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Legwraps",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "335",
+          "Primary Stat": "35"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1531",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      },
+      {
+        "location": "The Ramshackle",
+        "name": "Galian Catalyst",
+        "rarity": "Unique",
+        "level": "35",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "76",
+          "Primary Stat": "25"
+        },
+        "perks": [
+          "Vanguard",
+          "Brainiac",
+          "Mighty"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 dancing sparks",
+          "15 naga scales"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Emerald Desert",
+    "items": [
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Plate",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "399",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "36",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "190",
+          "Primary Stat": "36"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "36",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "266",
+          "Primary Stat": "36"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "323",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Blade",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "360",
+          "Primary Stat": "16"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Plate",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "427",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "194",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "272",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "349",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Dreadlord's Blade",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "427",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1850",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon's Robes",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "399",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Soles",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "190",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Wraps",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "266",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Leggings",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "323",
+          "Primary Stat": "29"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1125",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Catalyst",
+        "rarity": "Uncommon",
+        "level": "36",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "67",
+          "Primary Stat": "16"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1350",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon's Robes",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "427",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Soles",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "194",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Wraps",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "272",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Leggings",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "349",
+          "Primary Stat": "37"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1619",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      },
+      {
+        "location": "Emerald Desert",
+        "name": "Demon Catalyst",
+        "rarity": "Unique",
+        "level": "37",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "78",
+          "Primary Stat": "27"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1850",
+        "components": [
+          "25 ember cores",
+          "15 fire seeds"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Queen's Path",
+    "items": [
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Plate",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "416",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "38",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "198",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "38",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "277",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "337",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Blade",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "372",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Plate",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "444",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "202",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "283",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "364",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Dreadlord's Blade",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "441",
+          "Primary Stat": "28"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1950",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon's Robes",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "416",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Soles",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "198",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Wraps",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "277",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Leggings",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "337",
+          "Primary Stat": "31"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1188",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Catalyst",
+        "rarity": "Uncommon",
+        "level": "38",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "69",
+          "Primary Stat": "17"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1425",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon's Robes",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "444",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Soles",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "202",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Wraps",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "283",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Leggings",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "364",
+          "Primary Stat": "38"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1706",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      },
+      {
+        "location": "Queen's Path",
+        "name": "Demon Catalyst",
+        "rarity": "Unique",
+        "level": "39",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "81",
+          "Primary Stat": "28"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1950",
+        "components": [
+          "25 ember cores",
+          "15 chimera feathers"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Ruler's Reach",
+    "items": [
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Plate",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "433",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "206",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "288",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "350",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Blade",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "384",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Plate",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "453",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Greaves",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "206",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Mitts",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "288",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Legguards",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "371",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Dreadlord's Blade",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "448",
+          "Primary Stat": "30"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2000",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon's Robes",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "433",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Soles",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Wraps",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "268",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Leggings",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "350",
+          "Primary Stat": "34"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1250",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Catalyst",
+        "rarity": "Uncommon",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "72",
+          "Primary Stat": "19"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1500",
+        "components": [
+          "10 ember cores"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon's Robes",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "453",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Soles",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "206",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Wraps",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "288",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Leggings",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "371",
+          "Primary Stat": "42"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "1750",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      },
+      {
+        "location": "Ruler's Reach",
+        "name": "Demon Catalyst",
+        "rarity": "Unique",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "82",
+          "Primary Stat": "30"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2000",
+        "components": [
+          "25 ember cores",
+          "15 automaton's cogs"
+        ]
+      }
+    ]
+  },
+  {
+    "location": "Zenith City",
+    "items": [
+      {
+        "location": "Zenith City",
+        "name": "Squire's Garb",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "474",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Squire's Shoes",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Squire's Gloves",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "309",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Squire's Leggings",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "391",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ancient Plate",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "494",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 mountain hearts",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ancient Greaves",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "247",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 mountain hearts",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ancient Gauntlets",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "330",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 mountain hearts",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ancient Legguards",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "412",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 mountain hearts",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ultima Blade",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Blade Master",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "742",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Assassin"
+        ],
+        "zen": "6500",
+        "components": [
+          "90 ember cores",
+          "65 essence seeds",
+          "75 mountain hearts",
+          "105 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Initiate's Robes",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "474",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Initiate's Slippers",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "227",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Initiate's Wraps",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "309",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Initiate's Pants",
+        "rarity": "Epic",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "391",
+          "Primary Stat": "57"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "2500",
+        "components": [
+          "35 essence seeds",
+          "40 mountain hearts",
+          "45 primal pearls",
+          "50 ember cores"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Kitsune Robes",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Chest",
+        "stats": {
+          "Defense": "494",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 ember cores",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Kitsune Boots",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Boots",
+        "stats": {
+          "Defense": "247",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 ember cores",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Kitsune Wraps",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Hands",
+        "stats": {
+          "Defense": "330",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 ember cores",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Kitsune Pants",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Legs",
+        "stats": {
+          "Defense": "412",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Steadfast",
+          "Eagle Eye",
+          "Well-Rounded"
+        ],
+        "zen": "5000",
+        "components": [
+          "65 dancing sparks",
+          "45 essence seeds",
+          "60 ember cores",
+          "55 primal pearls"
+        ]
+      },
+      {
+        "location": "Zenith City",
+        "name": "Ultima Launcher",
+        "rarity": "Legendary",
+        "level": "40",
+        "className": "Essence Mage",
+        "slot": "Weapon",
+        "stats": {
+          "Damage": "108",
+          "Primary Stat": "76"
+        },
+        "perks": [
+          "Brawler",
+          "Warlock",
+          "Exemplar"
+        ],
+        "zen": "6500",
+        "components": [
+          "90 ember cores",
+          "65 essence seeds",
+          "75 mountain hearts",
+          "105 primal pearls"
+        ]
+      }
+    ]
+  }
+]
