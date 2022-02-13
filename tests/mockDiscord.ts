@@ -221,7 +221,7 @@ export default class MockDiscord {
       this.guild, 
       {
         ...this.botPartyChannel,
-        name: "listagem-de-grupos",
+        name: "party-listing",
         position: 2,
         parent_id: "2",
         permission_overwrites: [],

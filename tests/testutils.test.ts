@@ -1,6 +1,6 @@
 import { getParsedCommand } from "./testutils"
-import { getData as getAboutData } from '../src/commands/About'
-import { getData as getPartyCreateData } from '../src/commands/party/PartyCreate'
+import { commandData as aboutCommandData } from '../src/commands/About'
+import { commandData as partyCreateCommandData } from '../src/commands/party/PartyCreate'
 
 describe('Test utils', () => {
   it('getParsedCommand parses a command string with sub command as expected', () => {
@@ -75,9 +75,8 @@ describe('Test utils', () => {
     expect(parsedCommand).toEqual(expected)
   })
   it('getParsedCommand parses a command string without subcommand as expected', () => {
-    const commandData = getAboutData('en')
     const commandString = '/about lang: en'
-    const parsedCommand = getParsedCommand(commandString, commandData)
+    const parsedCommand = getParsedCommand(commandString, aboutCommandData)
     const expected = {
       name: 'about',
       id: 'about',
@@ -92,9 +91,8 @@ describe('Test utils', () => {
   })
   
   it('getParsedCommand parses a command string with : ', () => {
-    const commandData = getPartyCreateData('en')
     const commandString = '/party-create name: group1 date: 10/10 21:00 level: 200 slots: 6'
-    const parsedCommand = getParsedCommand(commandString, commandData)
+    const parsedCommand = getParsedCommand(commandString, partyCreateCommandData)
     const expected = {
       type: 1,
       options: [
