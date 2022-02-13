@@ -1,0 +1,399 @@
+[
+  {
+    "name": "Cookie",
+    "directions": [
+      "Warm up the Milk in the pot, turning the dial to wait for the *poof* then place warmed milk into the Cauldron.",
+      "Toss the sugar straight into the Cauldron, no prep work is required.",
+      "Brown the flour in the skillet, tossing it up into the air frequently so you don't burn it. Wait for the poof, then place the browned flower into the cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Sugar",
+        "count": "2"
+      },
+      {
+        "name": "Flour",
+        "count": 1
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"25\"}",
+      "{\"stat\":\"Attack\",\"amount\":\"5\"}",
+      "{\"stat\":\"Defense\",\"amount\":\"5\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 1,
+    "type": "Food"
+  },
+  {
+    "name": "Basic Noodles",
+    "directions": [
+      "Cook Milk in the pot, then place into cauldron.",
+      "Fry Flour in the skillet, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Flour",
+        "count": "2"
+      }
+    ],
+    "tiers": [
+      5,
+      25,
+      60
+    ],
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"100\"}"
+    ],
+    "youtube_url": "",
+    "created_item": 2,
+    "type": "Food"
+  },
+  {
+    "name": "Basic Carrot Noodles",
+    "directions": [
+      "Boil Noodles in pot until soft, then transfer to cauldron.",
+      "Chop Carrot into 6 pieces, sauté in skillet until soft and slightly browned, then add to cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Basic Noodles",
+        "count": 1
+      },
+      {
+        "name": "Carrot",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"200\"}",
+      "{\"stat\":\"Attack\",\"amount\":\"10\"}"
+    ],
+    "youtube_url": "",
+    "created_item": 3,
+    "type": "Food"
+  },
+  {
+    "name": "Basil Noodles",
+    "directions": [
+      "Boil Noodles in pot until soft, then move into cauldron.",
+      "Chop each basil into 7 pieces, fry in skillet then move into cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Basic Noodles",
+        "count": 1
+      },
+      {
+        "name": "Basil",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"200\"}"
+    ],
+    "youtube_url": "",
+    "created_item": 4,
+    "type": "Food"
+  },
+  {
+    "name": "Basil Mushroom Noodles",
+    "directions": [
+      "Cook Basil Noodles in the pot, then place into cauldron.",
+      "Chop Common Mushroom into 4 pieces, fry in the skillet, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Basil Noodles",
+        "count": "1"
+      },
+      {
+        "name": "Common Mushroom",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"200\"}",
+      "{\"stat\":\"Stamina\",\"amount\":\"5\"}",
+      "{\"stat\":\"Crit Chance\",\"amount\":\"5%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 5,
+    "type": "Food"
+  },
+  {
+    "name": "Cilantro Noodles",
+    "directions": [
+      "Cook Basic Noodles in the pot, then place into cauldron.",
+      "Chop Cilantro into 8 pieces, fry in the skillet, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Basic Noodles",
+        "count": 1
+      },
+      {
+        "name": "Cilantro",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"400\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 6,
+    "type": "Food"
+  },
+  {
+    "name": "Orange Cheesecake Smoothie",
+    "directions": [
+      "Cook Milk in pot, then place into cauldron.",
+      "Chop Blood Orange into 5 pieces, then place into cauldron 2 times.",
+      "Chop Durian into 7 pieces, then place into cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Orange",
+        "count": "2"
+      },
+      {
+        "name": "Durian",
+        "count": 1
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Stamina\",\"amount\":\"3\"}",
+      "{\"stat\":\"Crit Chance\",\"amount\":\"3%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 9,
+    "type": "Drink"
+  },
+  {
+    "name": "Sunset Dragon Smoothie",
+    "directions": [
+      "Cook Milk in the pot, then place into cauldron.",
+      "Chop Dragonfruit into 8 pieces, cook in the pot, then place into cauldron.",
+      "Chop Blood Orange into 6 pieces, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Dragonfruit",
+        "count": 1
+      },
+      {
+        "name": "Orange",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Rage\",\"amount\":\"5%\"}",
+      "{\"stat\":\"Crit Chance\",\"amount\":\"3%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 10,
+    "type": "Drink"
+  },
+  {
+    "name": "Orange Rabbit Smoothie",
+    "directions": [
+      "Cook Milk in pot until warm, then transfer to cauldron.",
+      "Cut Oranges into 5 pieces, then toss into cauldron.",
+      "Chop Carrot into 6 pieces, boil to soften, then toss into cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Orange",
+        "count": 1
+      },
+      {
+        "name": "Carrot",
+        "count": 1
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Rage\",\"amount\":\"5%\"}",
+      "{\"stat\":\"Armor\",\"amount\":\"5%\"}"
+    ],
+    "youtube_url": "",
+    "created_item": 11,
+    "type": "Drink"
+  },
+  {
+    "name": "Orange Creamsicle Smoothie",
+    "directions": [
+      "Cook Milk in the pot, then place into cauldron.",
+      "Chop Blood Orange into 7 pieces, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Orange",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Rage\",\"amount\":\"10%\"}"
+    ],
+    "youtube_url": "",
+    "created_item": 12,
+    "type": "Drink"
+  },
+  {
+    "name": "Peach Smoothie",
+    "directions": [
+      "Cook Milk in the pot, then place into cauldron.",
+      "Chop Peach into 6 pieces, cook in the pot, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Peach",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Armor\",\"amount\":\"20%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 13,
+    "type": "Drink"
+  },
+  {
+    "name": "Apple Juice",
+    "directions": [
+      "Fry Sugar in the skillet, then place into cauldron.",
+      "Chop Apple into 6 pieces, cook in the pot, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "count": 1
+      },
+      {
+        "name": "Apple",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Rage\",\"amount\":\"20%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 14,
+    "type": "Drink"
+  },
+  {
+    "name": "Dragonfruit Smoothie",
+    "directions": [
+      "Cook Milk in pot until warm, then transfer to cauldron.",
+      "Cut each Dragonfruit into 6 pieces, then soften in a pot. Toss into Cauldron when done."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Dragonfruit",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Crit Chance\",\"amount\":\"5%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 15,
+    "type": "Drink"
+  },
+  {
+    "name": "Rosemary Noodles",
+    "directions": [
+      "Cook Basic Noodles in the pot, then place into cauldron.",
+      "Chop Rosemary into 7 pieces, fry in the skillet, then place into cauldron 2 times."
+    ],
+    "ingredients": [
+      {
+        "name": "Basic Noodles",
+        "count": 1
+      },
+      {
+        "name": "Rosemary",
+        "count": "2"
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Health\",\"amount\":\"800\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 8,
+    "type": "Food"
+  },
+  {
+    "name": "Flaming Pineapple Smoothie",
+    "directions": [
+      "Cook Milk in the pot, then place into cauldron.",
+      "Chop Pineapple into 10 pieces, fry in the skillet, then place into cauldron.",
+      "Chop Dragonfruit into 5 pieces, then place into cauldron."
+    ],
+    "ingredients": [
+      {
+        "name": "Milk",
+        "count": 1
+      },
+      {
+        "name": "Pineapple",
+        "count": 1
+      },
+      {
+        "name": "Dragonfruit",
+        "count": 1
+      }
+    ],
+    "tiers": null,
+    "effect": [
+      "{\"stat\":\"Crit Chance\",\"amount\":\"5%\"}"
+    ],
+    "youtube_url": null,
+    "created_item": 16,
+    "type": "Drink"
+  }
+]

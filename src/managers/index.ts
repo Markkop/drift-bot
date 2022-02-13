@@ -1,7 +1,7 @@
 import ConfigManager from './ConfigManager'
 import DatabaseManager from './DatabaseManager'
 import ItemManager from './ItemManager'
-// import RecipesManager from './RecipesManager'
+import RecipesManager from './RecipesManager'
 import MessageManager from './MessageManager'
 
 export {
@@ -9,5 +9,5 @@ export {
   DatabaseManager,
   ItemManager,
   MessageManager,
-  // RecipesManager
+  RecipesManager
 }

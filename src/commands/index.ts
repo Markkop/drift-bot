@@ -1,6 +1,6 @@
 import AboutCommand, { commandData as AboutCommandData } from './About'
 import EquipCommand, { commandData as EquipCommandData } from './Equip'
-// import RecipeCommand, { commandData as RecipeCommandData } from './Recipe'
+import RecipeCommand, { commandData as RecipeCommandData } from './Recipe'
 import HelpCommand, { commandData as HelpCommandData } from './Help'
 import ConfigCommand, { commandData as ConfigCommandData } from './Config'
 import PartyCreateCommand, { commandData as PartyCreateCommandData } from './party/PartyCreate'
@@ -10,7 +10,7 @@ import PartyReaction from './party/PartyReaction'
 export {
   AboutCommand,
   EquipCommand,
-  // RecipeCommand,
+  RecipeCommand,
   HelpCommand,
   ConfigCommand,
   PartyCreateCommand,
@@ -21,7 +21,7 @@ export {
 export default [
   AboutCommandData,
   EquipCommandData,
-  // RecipeCommandData,
+  RecipeCommandData,
   HelpCommandData,
   ConfigCommandData,
   PartyCreateCommandData,

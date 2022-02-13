@@ -1,84 +1,167 @@
-// import { RecipeItemData } from '@types'
-// import str from '@stringsLang'
-// import { MessageManager } from '@managers'
-// import mappings from '@utils/mappings'
-// const { rarityMap, jobsMap, itemEmojis } = mappings
-// const recipesData = require('../../data/generated/recipes.json')
-// class RecipesManager {
-//   private recipes: RecipeItemData[]
+import { CommandOptions, CookingRecipe, Recipe } from '@types'
+import str from '@stringsLang'
+import { MessageManager, ItemManager } from '@managers'
+import { hasTextOrNormalizedTextIncluded } from '@utils/strings'
+const cookingRecipesData = require('../../data/raw/ez/cookingRecipes.json')
+class RecipesManager {
+  private recipes: Recipe[]
 
-//   constructor () {
-//     this.recipes = recipesData
-//   }
+  constructor () {
+    const equipmentRecipes = this.parseEquipmentToItsRecipe(cookingRecipesData)
+    const cookingRecipes = this.parseCookingRecipes()
+    this.recipes = [...equipmentRecipes, ...cookingRecipes]
+  }
 
-//   public getRecipesByProductedItemId (itemId: number): RecipeItemData[] {
-//     return this.recipes.filter(recipe => recipe.result.productedItemId === itemId)
-//   }
+  private parseEquipmentToItsRecipe(recipesData: CookingRecipe[]): Recipe[] {
+    return recipesData.map(cookingRecipe => {
+      return {
+        ...cookingRecipe,
+        job: 'Cooking',
+        instructions: cookingRecipe.directions,
+      }
+    })
+  }
 
-//   public findRecipeByName (query, options, lang) {
-//     return this.recipes.filter(recipe => {
-//       const recipeResult = recipe.result
-//       if (!recipeResult.title) {
-//         return false
-//       }
-//       const matchesName = recipeResult.title[lang].toLowerCase().includes(query)
-//       let matchesRarity = true
-//       if (options.rarityId && recipeResult.rarity) {
-//         matchesRarity = options.rarityId === recipeResult.rarity
-//       }
-//       const filterAssertion = matchesName && matchesRarity
-//       return filterAssertion
-//     })
-//   }
+  private parseCookingRecipes(): Recipe[] {
+    const equipment = ItemManager.getEquipmentList()
+    return equipment.map(equip => {
+      const ingredients = equip.components.map(component => ({
+        count: Number(component.slice(0, component.indexOf(' '))),
+        name: component.slice(component.indexOf(' ') + 1)
+      }))
 
-//   public getRecipeFields (recipeResults, lang) {
-//     const firstRecipe = recipeResults[0]
-//     const recipesWithSameResult = recipeResults.filter(recipe => recipe.result.productedItemId === firstRecipe.result.productedItemId)
-//     const job = jobsMap[firstRecipe.job.definition.id]
-//     const jobEmoji = job.emoji
-//     const jobName = job.title[lang]
-  
-//     const fields = [
-//       {
-//         name: str.capitalize(str.job[lang]),
-//         value: `${jobEmoji} ${jobName}`,
-//         inline: true
-//       },
-//       {
-//         name: str.capitalize(str.level[lang]),
-//         value: String(firstRecipe.level),
-//         inline: true
-//       }
-//     ]
-//     recipesWithSameResult.forEach(recipe => {
-//       const ingredientsText = recipe.ingredients.map(ingredient => {
-//         const rarityEmoji = ingredient.rarity ? rarityMap[ingredient.rarity].emoji : ''
-//         const job = jobsMap[ingredient.job] || {}
-//         const jobEmoji = job.emoji
-//         const itemEmoji = itemEmojis[ingredient.itemId]
-//         const ingredientEmoji = rarityEmoji || jobEmoji || itemEmoji || ':white_small_square:'
-//         const quantity = ingredient.quantity
-//         const name = ingredient.title[lang]
-//         const quantityText = `${quantity}x`
-//         const quantityCodeText = MessageManager.convertToCodeBlock(quantityText, 5)
-//         return `${ingredientEmoji} ${quantityCodeText} ${name}`
-//       })
-//       const orderedByEmojiTexts = ingredientsText.sort((textA, textB) => {
-//         const textAhasDefaultEmoji = textA.includes(':white_small_square:')
-//         const textBhasDefaultEmoji = textB.includes(':white_small_square:')
-//         if (textAhasDefaultEmoji && !textBhasDefaultEmoji) return 1
-//         if (!textAhasDefaultEmoji && textBhasDefaultEmoji) return -1
-//         return 0
-//       })
-//       fields.push({
-//         name: str.capitalize(str.ingredients[lang]),
-//         value: orderedByEmojiTexts.join('\n'),
-//         inline: false
-//       })
-//     })
-//     return fields
-//   }
-// }
+      return {
+        name: equip.name,
+        job: 'Synthesis',
+        level: equip.level,
+        rarity: equip.rarity,
+        type: equip.slot,
+        stats: equip.stats,
+        perks: equip.perks,
+        instructions: str.synthesisInstructions,
+        ingredients,
+        zen: equip.zen,
+        location: equip.location
+      }
+    })
+  }
 
-// const recipesManager = new RecipesManager()
-// export default recipesManager
+  public findRecipeByName (name: string, options: CommandOptions) {
+    return this.recipes.filter(recipe => {
+      let filterAssertion = true
+      const includeName = hasTextOrNormalizedTextIncluded(recipe.name, name)
+      if (options.rarityName) {
+        filterAssertion = filterAssertion && String(options.rarityName).toLowerCase() === recipe.rarity?.toLowerCase()
+      }
+
+      if (options.level) {
+        filterAssertion = filterAssertion && String(options.level) === recipe.level
+      }
+      return includeName && filterAssertion
+    })
+  }
+
+  public getRecipeFields (recipeResults: Recipe[]) {
+    const firstRecipe = recipeResults[0]
+    const fields = []
+
+    if (firstRecipe.job) {
+      fields.push({
+        name: str.capitalize(str.job),
+        value: String(firstRecipe.job),
+        inline: true
+      })
+    }
+
+    if (firstRecipe.type) {
+      fields.push({
+        name: str.capitalize(str.type),
+        value: String(firstRecipe.type),
+        inline: true
+      })
+    }
+
+    if (firstRecipe.level) {
+      fields.push({
+        name: str.capitalize(str.level),
+        value: String(firstRecipe.level),
+        inline: true
+      })
+    }
+
+    const ingredientsText = firstRecipe.ingredients.map(ingredient => {
+      const ingredientEmoji = ':white_small_square:'
+      const quantity = ingredient.count
+      const name = ingredient.name.split(' ').map(str.capitalize).join(' ')
+      const quantityText = `${quantity}x`
+      const quantityCodeText = MessageManager.convertToCodeBlock(quantityText, 5)
+      return `${ingredientEmoji} ${quantityCodeText} ${name}`
+    })
+    const orderedByEmojiTexts = ingredientsText.sort((textA, textB) => {
+      const textAhasDefaultEmoji = textA.includes(':white_small_square:')
+      const textBhasDefaultEmoji = textB.includes(':white_small_square:')
+      if (textAhasDefaultEmoji && !textBhasDefaultEmoji) return 1
+      if (!textAhasDefaultEmoji && textBhasDefaultEmoji) return -1
+      return 0
+    })
+    fields.push({
+      name: str.capitalize(str.ingredients),
+      value: orderedByEmojiTexts.join('\n'),
+      inline: false
+    })
+
+    if (firstRecipe.instructions.length) {
+      fields.push({
+        name: str.capitalize(str.instructions),
+        value: firstRecipe.instructions.join('\n'),
+        inline: false
+      })
+    }
+
+    if (firstRecipe.effect?.length) {
+      const effects = firstRecipe.effect.map(effect => {
+        const {stat, amount} = JSON.parse(effect)
+        return `${stat}: ${amount}`
+      })
+      fields.push({
+        name: str.capitalize(str.effects),
+        value: effects.join('\n'),
+        inline: false
+      })
+    }
+
+    if (firstRecipe.zen) {
+      fields.push({
+        name: str.capitalize(str.cost),
+        value: `${firstRecipe.zen} Zen`,
+        inline: false
+      })
+    }
+
+    if (firstRecipe.tiers) {
+      const tiers = firstRecipe.tiers.map((tier, index) => {
+        const stars = Array(index + 1).fill(':star:').join('')
+        return `${stars} ${tier}`
+      })
+      fields.push({
+        name: str.capitalize(str.tiers),
+        value: tiers.join('\n'),
+        inline: false
+      })
+    }
+
+    if (firstRecipe.location) {
+      fields.push({
+        name: str.capitalize(str.location),
+        value: str.capitalize(firstRecipe.location),
+        inline: false
+      })
+    }
+
+
+    return fields
+  }
+}
+
+const recipesManager = new RecipesManager()
+export default recipesManager

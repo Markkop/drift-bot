@@ -1,7 +1,6 @@
 import { BaseCommand } from '@baseCommands'
 import stringsLang from '@stringsLang'
 import { GuildConfig, PartialEmbed } from '@types'
-import { openFile } from '@utils/files'
 import { Interaction } from 'discord.js'
 import { SlashCommandBuilder } from '@discordjs/builders'
 

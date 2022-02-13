@@ -7,7 +7,7 @@ import ReactionService from './services/ReactionService'
 import { 
   EquipCommand,
   AboutCommand,
-  // RecipeCommand,
+  RecipeCommand,
   // PartyCreateCommand,
   // PartyUpdateCommand,
   HelpCommand,
@@ -20,7 +20,7 @@ import { registerCommands } from '@utils/registerCommands'
 const commandsMap = {
   equip: EquipCommand,
   about: AboutCommand,
-  // recipe: RecipeCommand,
+  recipe: RecipeCommand,
   // 'party-create': PartyCreateCommand,
   // 'party-update': PartyUpdateCommand,
   help: HelpCommand,

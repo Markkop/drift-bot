@@ -49,3 +49,35 @@ export type PartyOptions = {
   level: string,
   slots: string
 }
+
+export type Ingredient = {
+  name: string,
+  count: number
+}
+
+export type CookingRecipe = {
+  name: string,
+  directions: string[],
+  ingredients: Ingredient[],
+  tiers: number[],
+  effect: string[],
+  youtube_url: string,
+  created_item: number,
+  type: string
+}
+
+export type Recipe = {
+  name: string
+  type: string,
+  job: string,
+  level?: string,
+  instructions: string[],
+  ingredients: Ingredient[],
+  tiers?: number[]
+  effect?: string[],
+  stats?: Stats[],
+  perks?: string[]
+  rarity?: string,
+  zen?: string,
+  location?: string,
+}

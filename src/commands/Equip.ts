@@ -1,5 +1,5 @@
 import { FinderCommand } from '@baseCommands'
-import { ItemManager, MessageManager } from '@managers'
+import { ItemManager } from '@managers'
 import str from '@stringsLang'
 import { GuildConfig, PartialEmbed } from '@types'
 import { Interaction } from 'discord.js'
@@ -14,7 +14,7 @@ export const commandData = () => {
     .setName('equip')
     .setDescription(str.equipCommandDescription)
     .addStringOption(option => option.setName('name').setDescription(str.equipNameCommandOptionDescription).setRequired(true))
-    .addNumberOption(option => option.setName('level').setDescription(str.equipLevelCommandOptionDescription).setRequired(true))
+    .addNumberOption(option => option.setName('level').setDescription(str.equipLevelCommandOptionDescription))
   addStringOptionWithRarityChoices(builder, 'rarity', 'The rarity of the equipment')
   return builder
 }
@@ -44,20 +44,22 @@ export default class EquipCommand extends FinderCommand {
     const equipEmbed = this.mountEquipEmbed(results)
     const sentMessage = await this.send({ embeds: [equipEmbed] })
 
-    const reactions = []
-    // const recipes = RecipesManager.getRecipesByProductedItemId(results[0].id)
+    // TO DO: Waiting for a better way to get item ids before dynamically getting their recipes
+    // const reactions = []
+    // const recipes = RecipesManager.findRecipeByName(results[0].name, options)
     // if (recipes.length) {
     //   reactions.unshift('🛠️')
     // }
-    await MessageManager.reactToMessage(reactions, sentMessage)
+    // await MessageManager.reactToMessage(reactions, sentMessage)
   }
 
   private mountEquipEmbed (results): PartialEmbed {
     const firstResult = results[0]
+    const image = `https://ez.community/images/items/equipment/${firstResult.name}-${firstResult.rarity}.png`
     const equipEmbed: PartialEmbed = {
       color: rarityMap[firstResult.rarity.toLowerCase()].color,
       title: `${rarityMap[firstResult.rarity.toLowerCase()].emoji} ${firstResult.name}`,
-      thumbnail: { url: `https://ez.community/images/items/equipment/${firstResult.name.replace(/\s/g, '%20')}-${firstResult.rarity}.png` },
+      thumbnail: { url: image.replace(/\s/g, '%20')},
       fields: [
         {
           name: str.capitalize(str.level),

@@ -30,8 +30,8 @@ export default class FinderCommand extends BaseCommand {
       results = firstResults
     }
     return results.map(item => {
-      const rarityText = showRarity ? ` (${item.rarity})` : ''
-      const levelText = showLevel ? ` [${item.level}]` : ''
+      const rarityText = showRarity && item.rarity ? ` (${item.rarity})` : ''
+      const levelText = showLevel && item.level ? ` [${item.level}]` : ''
       return `${item.name}${levelText}${rarityText}`
     }).join(', ').trim() + moreResultsText
   }

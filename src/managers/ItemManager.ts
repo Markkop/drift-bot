@@ -2,9 +2,8 @@ import { hasTextOrNormalizedTextIncluded } from '@utils/strings'
 import str from '@stringsLang'
 import { CommandOptions, ItemData } from '@types'
 import mappings from '@utils/mappings'
-import MessageManager from './MessageManager'
 import { MessageReaction, MessageEmbed } from 'discord.js'
-// import { RecipesManager } from '@managers'
+import { RecipesManager } from '@managers'
 const equipmentData = require('../../data/generated/items.json')
 
 class ItemManager {
@@ -14,6 +13,10 @@ class ItemManager {
   constructor () {
     this.itemsList = equipmentData
     this.setEquipmentList()
+  }
+
+  public getEquipmentList() {
+    return this.equipmentList
   }
 
   private setEquipmentList () {
@@ -52,13 +55,14 @@ class ItemManager {
     return this.getItemByName(this.equipmentList, name, options)
   }
 
+  // TODO: Waiting for a better way to obtain item ids
   // public async enrichItemMessage (reaction: MessageReaction) {
   //   const reactionEmbed = reaction.message.embeds[0]
   //   if (!reactionEmbed) return
 
   //   const levelField = reactionEmbed.fields.find(field => !/\D/.test(field.value))
   //   const levelName = levelField.name || ''
-  //   const lang = MessageManager.guessLanguage(levelName, str.level)
+
   //   const id = Number(reactionEmbed.description.split('ID: ')[1])
   
   
@@ -68,10 +72,10 @@ class ItemManager {
   //     })
   //     if (hasRecipeField) return
   
-  //     const recipes = RecipesManager.getRecipesByProductedItemId(id)
+  //     const recipes = RecipesManager.findRecipeByName('', {})
   //     if (!recipes.length) return
   
-  //     const recipeFields = RecipesManager.getRecipeFields(recipes, lang)
+  //     const recipeFields = RecipesManager.getRecipeFields(recipes)
   //     reactionEmbed.fields = [
   //       ...reactionEmbed.fields,
   //       ...recipeFields
