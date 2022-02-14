@@ -68,6 +68,7 @@ class Bot {
       this.client.guilds.cache.forEach(guild => {
         registerCommands(this.client, guild.id, guild.name)
       })
+    console.log("Slash commands registered!");
     }, 1000)
   }
 
