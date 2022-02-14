@@ -1,6 +1,7 @@
 # :robot: Drift Bot
 
 [![build](https://github.com/Markkop/drift-bot/actions/workflows/production.yml/badge.svg)](https://github.com/Markkop/drift-bot/actions/workflows/production.yml)
+[![servers](https://img.shields.io/endpoint?url=https://mark-nest.herokuapp.com/api/drift-bot-servers)](https://discord.com/api/oauth2/authorize?client_id=942472521725407302&permissions=1342565456&scope=bot)
 ![Repo status](https://www.repostatus.org/badges/latest/active.svg)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
@@ -23,25 +24,26 @@ To keep the bot running, please consider [donating](https://www.buymeacoffee.com
 
 ## Features 
 
-
 ### 👥 Party Listing
 
-When using `/party create` command, the bot will guide you through creating a new party list and it'll post it on the cannel defined by the `/config` command (`party-listing` by default).  
+When using `/party-create` command, the bot create a new party list and it'll post it on the cannel defined by the `/config` command (`party-listing` by default).  
 It'll also listen to reactions so members can join or leave groups.  
 To make use of this feature, make sure that the bot has enough permissions to the configured channel.  
 
 **Examples**:
 ```bash
-.party create
-.party update
+/party-create name: Cooking contest
+/party-create name: Pirate King description: If it's your first time, it's okay date: Tomorrow 8PM level: 40 slots: 10
+/party-update id: 20 date: 02/04/2020
 ```
+
+![image](https://user-images.githubusercontent.com/16388408/153883093-dde0b40b-47b5-4910-9de7-34ff6b907e3d.png)
 
 
 ### 🛡 Equipment search
 
-An equipment search is available with `/equip <name>` command.  
-It's also possible to filter them by rarity.
-If a recipe is associated, it can be displayed by reacting with 🛠️  
+An equipment search is available with `/equip` command.  
+It's also possible to filter them by level and rarity.
 
 **Examples**:
 ```bash
@@ -49,19 +51,19 @@ If a recipe is associated, it can be displayed by reacting with 🛠️
 /equip name: hardened rarity: unique
 ```
 
+![image](https://user-images.githubusercontent.com/16388408/153883275-1e8296ba-a795-44cc-a4d6-b1efb9d12327.png)
+
 ### 📜 Recipe search
 
-Similar to the commands above, you can search for recipes by name and rarity.  
-Recipes with same results are shown together.  
+Similar to the commands above, you can search for crafting recipes by name, rarity and level.  
 
 **Examples**:
 ```bash
-.recipe brakmar sword
-.recipe espada de brakmar lang=pt
-.recipe peace pipe rarity=mythical
+/recipe name: noodles
+/recipe name: hard rarity: unique
 ```
 
-![image](https://user-images.githubusercontent.com/16388408/134066195-1496574c-d92e-4ea3-929c-bbcbc7395e25.png)
+![image](https://user-images.githubusercontent.com/16388408/153883445-2866815d-49d7-4415-8ed8-2f04ccee2303.png)
 
 ### ⚙️ Configurable options
 
@@ -74,7 +76,6 @@ Some bot options can be configurable according to each server using `/config`/.
 /config get
 /config set party-channel: #party-listing
 ```
-
 
 ## 📈 How to contribute
 
