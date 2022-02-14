@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Discord Bot that provides information about Zenith VR MMORPG",
   "engines": {
-    "node": ">=16.13.2"
+    "node": "16.13.2"
   },
   "main": "dist/bot.js",
   "scripts": {
