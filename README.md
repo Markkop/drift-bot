@@ -7,6 +7,8 @@
 
 Drift is a [Discord Bot](https://discord.js.org/#/) that provides information about the [Zenith VR MMORPG](https://zenithmmo.com/) game.
 
+The data is currently obtained from [EZ's Website](https://ez.community/). The work they've been doing for the community is awesome!
+
 If you wish to **add this bot** to your server, access this [link](https://discord.com/api/oauth2/authorize?client_id=942472521725407302&permissions=139586825280&scope=bot%20applications.commands).  
 
 If you need help or want to report bugs, feel free to **join the bot's discord**: https://discord.gg/qtATGySSQ4
