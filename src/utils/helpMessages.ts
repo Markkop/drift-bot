@@ -24,12 +24,10 @@ export default {
     ]
   },
   recipe: {
-    help: 'See recipes.',
+    help: 'See recipes from synthesis and cooking',
     examples: [
-      '/recipe name: brakmar sword',
-      '/recipe name: espada de brakmar lang: pt',
-      '/recipe name: peace pipe rarity: mythical',
-      '/recipe name: o eterno rarity: mítico lang: pt'
+      '/recipe name: noodles',
+      '/recipe name: hard rarity: unique'
     ]
   },
   config: {
