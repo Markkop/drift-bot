@@ -39,6 +39,11 @@ describe('EquipmentCommand', () => {
           value: 'Brawler\nWarlock\nExemplar',
           inline: false
         },
+        {
+          inline: false,
+          name: "Location",
+          value: "Sporewood",
+        },
       ],
       footer: {
         text: 'Equipment found: Hardened Chestplate [19] (Unique), Hardened Chestplate [17] (Uncommon), Hardened Chestplate [16] (Unique), Hardened Chestplate [14] (Uncommon), Hardened Chestplate [13] (Unique), Hardened Chestplate [11] (Uncommon)'

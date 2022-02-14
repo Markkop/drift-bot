@@ -1,7 +1,7 @@
 import { FinderCommand } from '@baseCommands'
 import { ItemManager } from '@managers'
 import str from '@stringsLang'
-import { GuildConfig, PartialEmbed } from '@types'
+import { GuildConfig, ItemData, PartialEmbed } from '@types'
 import { Interaction } from 'discord.js'
 import { SlashCommandBuilder } from '@discordjs/builders'
 import { addStringOptionWithRarityChoices } from '@utils/registerCommands'
@@ -53,7 +53,7 @@ export default class EquipCommand extends FinderCommand {
     // await MessageManager.reactToMessage(reactions, sentMessage)
   }
 
-  private mountEquipEmbed (results): PartialEmbed {
+  private mountEquipEmbed (results: ItemData[]): PartialEmbed {
     const firstResult = results[0]
     const image = `https://ez.community/images/items/equipment/${firstResult.name}-${firstResult.rarity}.png`
     const equipEmbed: PartialEmbed = {
@@ -93,6 +93,14 @@ export default class EquipCommand extends FinderCommand {
       equipEmbed.fields.push({
         name: str.capitalize(str.perks),
         value: perks.join('\n'),
+        inline: false
+      })
+    }
+
+    if (firstResult.location) {
+      equipEmbed.fields.push({
+        name: str.capitalize(str.location),
+        value: str.capitalize(firstResult.location),
         inline: false
       })
     }
