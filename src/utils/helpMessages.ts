@@ -36,5 +36,12 @@ export default {
       '/config get',
       '/config set party-channel: #party-listing',
     ]
+  },
+  perks: {
+    help: 'See the equipment perks list and find them by name to check their effects',
+    examples: [
+      '/perks list',
+      '/perks search name: warlock'
+    ]
   }
 }

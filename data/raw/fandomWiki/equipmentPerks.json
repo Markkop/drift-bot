@@ -1,0 +1,269 @@
+{
+  "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enchanting the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
+  "passivePerks": [
+    {},
+    {
+      "name": "Well Rounded",
+      "effect": "increases Attack/Constitution/Affinity by",
+      "tier1": "10",
+      "tier2": "??",
+      "tier3": "??"
+    },
+    {
+      "name": "Warlock",
+      "effect": "increases Attack/Affinity by",
+      "tier1": "14",
+      "tier2": "??",
+      "tier3": "??"
+    },
+    {
+      "name": "Brawler",
+      "effect": "increases Attack/Constitution by",
+      "tier1": "14",
+      "tier2": "??",
+      "tier3": "??"
+    },
+    {
+      "name": "Exemplar",
+      "effect": "increases Affinity/Constitution by",
+      "tier1": "14",
+      "tier2": "??",
+      "tier3": "??"
+    },
+    {
+      "name": "Mighty",
+      "effect": "increases Attack by",
+      "tier1": "20",
+      "tier2": "30",
+      "tier3": "??"
+    },
+    {
+      "name": "Braniac",
+      "effect": "increases Affinity by",
+      "tier1": "24",
+      "tier2": "36",
+      "tier3": "??"
+    },
+    {
+      "name": "Vanguard",
+      "effect": "increases Constitution by",
+      "tier1": "24",
+      "tier2": "36",
+      "tier3": "36"
+    },
+    {
+      "name": "Eagle Eye",
+      "effect": "increases Crit Chance by",
+      "tier1": "4%",
+      "tier2": "?%",
+      "tier3": "7%"
+    },
+    {
+      "name": "Slayer",
+      "effect": "Increases Crit Power by",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Sadistic",
+      "effect": "Increases Crit Chance/Crit Power by",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Sprinter",
+      "effect": "increases Stamina by",
+      "tier1": "1",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Oxygenator",
+      "effect": "Increases Stamina Regen",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Lightfoot",
+      "effect": "Increases movement speed",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Steadfast",
+      "effect": "Increases Health by",
+      "tier1": "300",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Automend",
+      "effect": "Increases natural Health regeneration by",
+      "tier1": "+100%",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Essence Flow",
+      "effect": "Increases resource regeneration",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Shell",
+      "effect": "says \"armor\"; does not increase armor",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Robust",
+      "effect": "slightly increases Health by",
+      "tier1": "100",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Assistant",
+      "effect": "slightly increases Affinity by",
+      "tier1": "10",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Brutal",
+      "effect": "slightly increases Attack by",
+      "tier1": "10",
+      "tier2": "",
+      "tier3": ""
+    },
+    {
+      "name": "Bastion",
+      "effect": "slightly increases Constitution by",
+      "tier1": "10",
+      "tier2": "",
+      "tier3": ""
+    }
+  ],
+  "activePerks": [
+    {},
+    {
+      "name": "Banshee's Bellow",
+      "effect": ""
+    },
+    {
+      "name": "Blood Thief",
+      "effect": "Restores your HP by 100% of your AP upon killing an enemy."
+    },
+    {
+      "name": "Body Meld",
+      "effect": "Tier 1 - Increases Constitution (main Tank stat) by 100 upon kill for 30 seconds with 10 second cooldown. Stacks 3 times. (affects max HP and AP)."
+    },
+    {
+      "name": "Brain Freeze",
+      "effect": ""
+    },
+    {
+      "name": "Breath Stealer",
+      "effect": ""
+    },
+    {
+      "name": "Bunker",
+      "effect": ""
+    },
+    {
+      "name": "Chrono Skip",
+      "effect": ""
+    },
+    {
+      "name": "Death's Chariot",
+      "effect": "Gives 5% movement speed upon killing an enemy; it does stack at least to 10% (probably can also have 3+ stacks, just like spirit meld)"
+    },
+    {
+      "name": "Deep Breathing",
+      "effect": "Gives +2% AP on ability use for 15s with cooldown of 5 seconds. Can stack up to 3 times for +6%."
+    },
+    {
+      "name": "Defiant",
+      "effect": "Tier 1 - Restores your HP for 35% of your AP upon ability use. Does not require hitting an enemy. 5 second cooldown."
+    },
+    {
+      "name": "Essence Thief",
+      "effect": "Restores mana/rage upon killing an enemy"
+    },
+    {
+      "name": "Fighting Spirit",
+      "effect": ""
+    },
+    {
+      "name": "Flare",
+      "effect": ""
+    },
+    {
+      "name": "Flow State",
+      "effect": ""
+    },
+    {
+      "name": "Helping Hand",
+      "effect": ""
+    },
+    {
+      "name": "Inner Rage",
+      "effect": ""
+    },
+    {
+      "name": "Killer's Edge",
+      "effect": "Gives a 10% Crit chance for 12-15 (?) seconds upon getting a kill. Also applied to allies. Doesn't seem to stack."
+    },
+    {
+      "name": "Kingmaker",
+      "effect": ""
+    },
+    {
+      "name": "Marrow Stealer",
+      "effect": ""
+    },
+    {
+      "name": "Mind Meld",
+      "effect": "I guess it's the same as spirit meld, but for supports, increasing Affinity (main support stat)?"
+    },
+    {
+      "name": "Pain Link",
+      "effect": ""
+    },
+    {
+      "name": "Pit Fighter",
+      "effect": ""
+    },
+    {
+      "name": "Scatter",
+      "effect": ""
+    },
+    {
+      "name": "Shelter",
+      "effect": ""
+    },
+    {
+      "name": "Soul Shock",
+      "effect": "Tier 1 - Chance to deal an additional 25% AP damage to a hit enemy (procs shortly after the initial hit)."
+    },
+    {
+      "name": "Spirit Meld",
+      "effect": "Increases ATK and Crit% after killing a certain amount of mobs (it stacks, see more detailed info about stacking buffs below the table) (tests and more info - <a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external free\" href=\"https://imgur.com/a/nRpBzwi\">https://imgur.com/a/nRpBzwi</a>)"
+    },
+    {
+      "name": "Super  Heated",
+      "effect": "Deals damage over time to an enemy you hit with a blaster or ability (even a non-damaging ability). Damage is done every 1 second for 5 seconds. 10 second cooldown. Damage done is scaled off of AP (need specifics). I believe tiers 2 and 3 increase the damage ticks beyond 5."
+    },
+    {
+      "name": "Thick As Thieves",
+      "effect": "Tier 1 - Allies receive a 15% movement speed buff for 30 seconds when they are hit by your fully charged blaster shot (including splash damage). Buff is not applied to the shooter who has the perk, only shot allies. Will stack with other speed buffs."
+    }
+  ],
+  "buffsAndStacksText": "It looks like that all buffs received upon killing an enemy do stack. The first stack is received after killing one mob, then 2nd stack after killing 3 more mobs, and then the 3rd stack after 5 more mobs. Each stack has it's own timer and it's usually 30 seconds. So you'll lose one stack 30 seconds after getting the first stack. To get 3 stacks, you should kill 9 mobs within 30 seconds (until the first stack is lost), and 3 stacks won't last for too long anyway It's pretty easy to keep 2 stacks active if killing monsters non-stop. It's currently unknown if the 4th stack exists - it may exist after killing 7 mobs while having 3 stacks(assuming each stack requires 2 more mobs than the previous stack), and it should be done within 30 seconds after getting the first stack - so 16 mobs in 30 seconds timeframe.\n"
+}

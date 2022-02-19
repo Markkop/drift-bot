@@ -4,15 +4,16 @@ import { Client, Interaction, MessageReaction, User, Intents, Guild } from 'disc
 import { handleInteractionError, handleReactionError } from './utils/handleError'
 import { ConfigManager } from '@managers'
 import ReactionService from './services/ReactionService'
-import { 
+import {
   EquipCommand,
   AboutCommand,
   RecipeCommand,
   PartyCreateCommand,
   PartyUpdateCommand,
   HelpCommand,
-  ConfigCommand
- } from '@commands'
+  ConfigCommand,
+  PerksCommand
+} from '@commands'
 import { GuildConfig } from '@types'
 import { saveServersNumber } from '@utils/serversNumber'
 import { registerCommands } from '@utils/registerCommands'
@@ -24,7 +25,8 @@ const commandsMap = {
   'party-create': PartyCreateCommand,
   'party-update': PartyUpdateCommand,
   help: HelpCommand,
-  config: ConfigCommand
+  config: ConfigCommand,
+  perks: PerksCommand
 }
 
 class Bot {
@@ -32,13 +34,13 @@ class Bot {
   private token: string
   private configManager: ConfigManager
 
-  constructor (client: Client, token: string, configManager: ConfigManager) {
+  constructor(client: Client, token: string, configManager: ConfigManager) {
     this.client = client
     this.token = token
     this.configManager = configManager
   }
 
-  public listen (): void {
+  public listen(): void {
     this.client.on('interactionCreate', this.onInteractionCreate.bind(this))
     this.client.on('ready', this.onReady.bind(this))
     this.client.on('messageReactionAdd', this.onMessageReactionAdd.bind(this))
@@ -48,7 +50,7 @@ class Bot {
     this.client.login(this.token)
   }
 
-  private onReady () {
+  private onReady() {
     const servers = this.client.guilds.cache.size
     console.log(`Online on ${servers} servers: ${this.client.guilds.cache.map(guild => guild.name).join(', ')}`)
     this.client.user.setActivity('/about or /help', { type: 'PLAYING' })
@@ -56,30 +58,30 @@ class Bot {
     this.registerCommandsAfterLoadingConfigs()
   }
 
-  private onGuildCreate (guild: Guild) {
+  private onGuildCreate(guild: Guild) {
     registerCommands(this.client, guild.id, guild.name)
     console.log(`Just joined on ${guild.name} and registered slash commands!`)
   }
 
   private registerCommandsAfterLoadingConfigs() {
     const interval = setInterval(() => {
-      if(!this.configManager.hasLoadedConfigs) return
+      if (!this.configManager.hasLoadedConfigs) return
       clearInterval(interval)
       this.client.guilds.cache.forEach(guild => {
         registerCommands(this.client, guild.id, guild.name)
       })
-    console.log("Slash commands registered!");
+      console.log("Slash commands registered!");
     }, 1000)
   }
 
-  private async onInteractionCreate (interaction: Interaction) {
+  private async onInteractionCreate(interaction: Interaction) {
     try {
       if (!interaction.isCommand()) return;
 
       const commandName = interaction.commandName
       const Command = this.getCommand(commandName)
 
-	    if (!Command) return;
+      if (!Command) return;
 
       const guildConfig = this.configManager.getGuildConfig(interaction.guildId)
 
@@ -108,19 +110,19 @@ class Bot {
     }
   }
 
-  private getCommand (commandWord: string) {
+  private getCommand(commandWord: string) {
     return commandsMap[commandWord]
   }
 }
 
 export default function initiateBot() {
-  const client = new Client({ 
+  const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.GUILD_MESSAGES],
     partials: ['MESSAGE', 'CHANNEL', 'REACTION']
-   })
+  })
   const configManager = ConfigManager.getInstance()
   const token = process.env.DISCORD_BOT_TOKEN
-  
+
   const bot = new Bot(client, token, configManager)
   bot.listen()
 }

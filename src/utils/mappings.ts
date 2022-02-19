@@ -8,6 +8,10 @@ export default {
     '<:support:942566105917030420>': 'Support',
     '<:tank:942566105795416154>': 'Tank',
   },
+  perkTypeEmoji: {
+    'passive': '<:yCube:746194730433642586>',
+    'active': '<:zCube:746194730005823530>',
+  },
   numberEmoji: {
     1: '1️⃣',
     2: '2️⃣',

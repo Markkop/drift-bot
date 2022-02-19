@@ -9,7 +9,7 @@ export type DefaultGuildConfig = {
   partyChannel: string
 }
 
-export type PartyActions = 'join'|'leave'
+export type PartyActions = 'join' | 'leave'
 
 export type PartialEmbed = Partial<MessageEmbed>
 
@@ -37,7 +37,7 @@ export type JobDefintion = {
   isInnate: boolean
 }
 
-export type CommandOptions = Record<string, string|number>
+export type CommandOptions = Record<string, string | number>
 
 export type CommandData = {
   args: string[],
@@ -82,4 +82,19 @@ export type Recipe = {
   rarity?: string,
   zen?: string,
   location?: string,
+}
+
+export type Perk = {
+  name: string,
+  effect: string,
+  type: 'active' | 'passive',
+  tier1?: string,
+  tier2?: string,
+  tier3?: string
+}
+
+export type ScrappedPerks = {
+  introText: string,
+  buffsAndStacksText: string,
+  perks: Perk[]
 }

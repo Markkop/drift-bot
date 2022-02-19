@@ -7,7 +7,8 @@
 
 Drift is a [Discord Bot](https://discord.js.org/#/) that provides information about the [Zenith VR MMORPG](https://zenithmmo.com/) game.
 
-The data is currently obtained from [EZ's Website](https://ez.community/). The work they've been doing for the community is awesome!
+Most of the data is currently obtained from [EZ's Website](https://ez.community/)
+Equipment Perk data is being retrived from [ZenithMMO Fandom Wiki](https://zenithmmo.fandom.com/wiki/Equipment_Perks)
 
 If you wish to **add this bot** to your server, access this [link](https://discord.com/api/oauth2/authorize?client_id=942472521725407302&permissions=139586825280&scope=bot%20applications.commands).  
 
@@ -19,6 +20,7 @@ To keep the bot running, please consider [donating](https://www.buymeacoffee.com
 
 * `/recipe`: search for recipes by name and rarity
 * `/equip`: search for equipment by name and rarity
+* `/perks`: list or search for equipment perks by name
 * `/party`: create, update, join or leave a party listing
 * `/about`: get information about this bot
 * `/config`: configure custom settings for each discord channel
@@ -54,6 +56,16 @@ It's also possible to filter them by level and rarity.
 ```
 
 ![image](https://user-images.githubusercontent.com/16388408/153883275-1e8296ba-a795-44cc-a4d6-b1efb9d12327.png)
+
+### 🧧 Perks list and search
+
+List or search for equipment perk by name
+
+**Examples**:
+```bash
+/perks list
+/perks search name: warlock
+```
 
 ### 📜 Recipe search
 

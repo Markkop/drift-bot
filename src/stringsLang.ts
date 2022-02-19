@@ -1,7 +1,12 @@
 export default {
-  capitalize (str: string) {
+  capitalize(str: string) {
     return str.charAt(0).toUpperCase() + str.slice(1)
   },
+  perksFound: 'Perks found',
+  perksCommandDescription: 'List and search for equipment perks',
+  perksListCommandDescription: 'List equipment perks',
+  perksSearchCommandDescription: 'Search for equipment perks by name',
+  perksNameCommandOptionDescription: 'The perk name or part of it',
   synthesisInstructions: [
     "Walk up to the synthesis machine to open the synthesis menu.",
     "Choose the class, level, and item you wish to make.",
