@@ -92,7 +92,7 @@ export default class PerksCommand extends FinderCommand {
     const typeEmoji = perkTypeEmoji[firstResult.type]
     const perkEmbed: PartialEmbed = {
       title: `${typeEmoji} ${firstResult.name}`,
-      description: 'Contribute with new or updated information on [ZenithMMO Fandom Wiki](https://zenithmmo.fandom.com/wiki/Equipment_Perks)',
+      description: str.contributeToWiki,
       fields: [
         {
           name: str.capitalize(str.type),
