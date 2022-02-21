@@ -10,7 +10,7 @@ class ItemManager {
   private itemsList: ItemData[]
   private equipmentList: ItemData[]
 
-  constructor () {
+  constructor() {
     this.itemsList = equipmentData
     this.setEquipmentList()
   }
@@ -19,20 +19,20 @@ class ItemManager {
     return this.equipmentList
   }
 
-  private setEquipmentList () {
+  private setEquipmentList() {
     // Move this sorting to a function
-    this.itemsList.sort((a,b) => {
+    this.itemsList.sort((a, b) => {
       const rarityA = mappings.rarityMap[b.rarity.toLowerCase()].id
       const rarityB = mappings.rarityMap[a.rarity.toLowerCase()].id
       return rarityA - rarityB
     })
-    this.itemsList.sort((a,b) => {
+    this.itemsList.sort((a, b) => {
       return Number(b.level) - Number(a.level)
     })
     this.equipmentList = this.itemsList
   }
 
-  public getItemByName (itemList: ItemData[], name: string, options: CommandOptions) {
+  public getItemByName(itemList: ItemData[], name: string, options: CommandOptions) {
     if (!options.rarityName && !options.level) {
       return itemList.filter(equip => hasTextOrNormalizedTextIncluded(equip.name, name))
     }
@@ -51,8 +51,18 @@ class ItemManager {
     })
   }
 
+  public getItemByLevel(itemList: ItemData[], level: number) {
+    return itemList.filter(equip => {
+      return String(level) === equip.level
+    })
+  }
+
   public getEquipmentByName(name: string, options: CommandOptions) {
     return this.getItemByName(this.equipmentList, name, options)
+  }
+
+  public getEquipmentByLevel(level: number) {
+    return this.getItemByLevel(this.equipmentList, level)
   }
 
   // TODO: Waiting for a better way to obtain item ids
@@ -64,17 +74,17 @@ class ItemManager {
   //   const levelName = levelField.name || ''
 
   //   const id = Number(reactionEmbed.description.split('ID: ')[1])
-  
-  
+
+
   //   if (reaction.emoji.name === '🛠️') {
   //     const hasRecipeField = reactionEmbed.fields.some(field => {
   //       return Object.values(str.job).some(jobName => jobName === field.name.toLowerCase())
   //     })
   //     if (hasRecipeField) return
-  
+
   //     const recipes = RecipesManager.findRecipeByName('', {})
   //     if (!recipes.length) return
-  
+
   //     const recipeFields = RecipesManager.getRecipeFields(recipes)
   //     reactionEmbed.fields = [
   //       ...reactionEmbed.fields,

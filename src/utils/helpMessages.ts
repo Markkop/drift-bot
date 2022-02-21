@@ -1,9 +1,10 @@
 export default {
   equip: {
-    help: 'Search by equipment name and / or rarity',
+    help: 'Search by equipment name, level and / or rarity',
     examples: [
       '/equip name: galian',
-      '/equip name: hardened rarity: unique'
+      '/equip name: hardened rarity: unique',
+      '/equip level: 17'
     ]
   },
   about: {

@@ -19,7 +19,7 @@ To keep the bot running, please consider [donating](https://www.buymeacoffee.com
 ## Commands
 
 * `/recipe`: search for recipes by name and rarity
-* `/equip`: search for equipment by name and rarity
+* `/equip`: search for equipment by name, rarity and level
 * `/perks`: list or search for equipment perks by name
 * `/party`: create, update, join or leave a party listing
 * `/about`: get information about this bot
@@ -53,6 +53,7 @@ It's also possible to filter them by level and rarity.
 ```bash
 /equip name: galian
 /equip name: hardened rarity: unique
+/equip level: 17
 ```
 
 ![image](https://user-images.githubusercontent.com/16388408/153883275-1e8296ba-a795-44cc-a4d6-b1efb9d12327.png)

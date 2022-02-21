@@ -13,29 +13,40 @@ export const commandData = () => {
   builder
     .setName('equip')
     .setDescription(str.equipCommandDescription)
-    .addStringOption(option => option.setName('name').setDescription(str.equipNameCommandOptionDescription).setRequired(true))
+    .addStringOption(option => option.setName('name').setDescription(str.equipNameCommandOptionDescription))
     .addNumberOption(option => option.setName('level').setDescription(str.equipLevelCommandOptionDescription))
   addStringOptionWithRarityChoices(builder, 'rarity', 'The rarity of the equipment')
   return builder
 }
 
 export default class EquipCommand extends FinderCommand {
-  constructor (interaction: Interaction, guildConfig: GuildConfig) {
+  constructor(interaction: Interaction, guildConfig: GuildConfig) {
     super(interaction, guildConfig)
   }
 
-  public async execute (): Promise<void> {
+  public async execute(): Promise<void> {
     if (!this.interaction.isCommand()) return
     const rarity = this.interaction.options.getString('rarity')
     const name = this.interaction.options.getString('name')
     const level = this.interaction.options.getNumber('level')
+
+    if (!name && !level) {
+      this.send('Please provide a name and/or a level option')
+      return
+    }
 
     const options = {
       rarityName: rarity,
       level
     }
 
-    const results = ItemManager.getEquipmentByName(name, options)
+    let results = []
+    if (!name && level) {
+      results = ItemManager.getEquipmentByLevel(level)
+    } else {
+      results = ItemManager.getEquipmentByName(name, options)
+    }
+
     if (!results.length) {
       this.returnNotFound()
       return
@@ -53,13 +64,13 @@ export default class EquipCommand extends FinderCommand {
     // await MessageManager.reactToMessage(reactions, sentMessage)
   }
 
-  private mountEquipEmbed (results: ItemData[]): PartialEmbed {
+  private mountEquipEmbed(results: ItemData[]): PartialEmbed {
     const firstResult = results[0]
     const image = `https://ez.community/images/items/equipment/${firstResult.name}-${firstResult.rarity}.png`
     const equipEmbed: PartialEmbed = {
       color: rarityMap[firstResult.rarity.toLowerCase()].color,
       title: `${rarityMap[firstResult.rarity.toLowerCase()].emoji} ${firstResult.name}`,
-      thumbnail: { url: image.replace(/\s/g, '%20')},
+      thumbnail: { url: image.replace(/\s/g, '%20') },
       fields: [
         {
           name: str.capitalize(str.level),
@@ -83,7 +94,7 @@ export default class EquipCommand extends FinderCommand {
     if (stats.length) {
       equipEmbed.fields.push({
         name: str.capitalize(str.stats),
-        value: stats.map(([ key, value ]) => `${key}: ${value}`).join('\n'),
+        value: stats.map(([key, value]) => `${key}: ${value}`).join('\n'),
         inline: false
       })
     }
