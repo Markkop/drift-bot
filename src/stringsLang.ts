@@ -2,6 +2,7 @@ export default {
   capitalize(str: string) {
     return str.charAt(0).toUpperCase() + str.slice(1)
   },
+  source: 'source',
   contributeToWiki: 'Contribute with new or updated information on [ZenithMMO Fandom Wiki](https://zenithmmo.fandom.com/wiki/Equipment_Perks)',
   perksFound: 'Perks found',
   perksCommandDescription: 'List and search for equipment perks',

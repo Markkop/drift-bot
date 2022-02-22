@@ -91,8 +91,8 @@ export default class PerksCommand extends FinderCommand {
     const firstResult = results[0]
     const typeEmoji = perkTypeEmoji[firstResult.type]
     const perkEmbed: PartialEmbed = {
+      url: 'https://zenithmmo.fandom.com/wiki/Equipment_Perks',
       title: `${typeEmoji} ${firstResult.name}`,
-      description: str.contributeToWiki,
       fields: [
         {
           name: str.capitalize(str.type),
@@ -109,12 +109,25 @@ export default class PerksCommand extends FinderCommand {
 
     const hasTier = Boolean(firstResult.tier1)
     if (hasTier) {
+      let tiersText = `Tier 1: ${firstResult.tier1}`
+      if (firstResult.tier2) {
+        tiersText = `${tiersText}\nTier 2: ${firstResult.tier2}`
+      }
+      if (firstResult.tier3) {
+        tiersText = `${tiersText}\nTier 3: ${firstResult.tier3}`
+      }
       perkEmbed.fields.push({
         name: str.capitalize(str.tiers),
-        value: `Tier 1: ${firstResult.tier1}\nTier 2: ${firstResult.tier2}\nTier 3: ${firstResult.tier3}`,
+        value: tiersText,
         inline: false
       })
     }
+
+    perkEmbed.fields.push({
+      name: str.capitalize(str.source),
+      value: str.contributeToWiki,
+      inline: false
+    })
 
     const perksFoundText = this.getTruncatedResults(results, 20, false, false)
     if (results.length > 1) {

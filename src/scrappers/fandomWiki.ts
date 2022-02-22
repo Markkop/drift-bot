@@ -13,35 +13,31 @@ async function scrapEquipmentPerksPage(page) {
 }
 
 function getEquipmentSynthesis() {
+  function scrapTable(table: Element) {
+    return [...table.querySelectorAll('tr')].map(tr => {
+      const [name, effect, tier1, tier2, tier3] = [...tr.querySelectorAll('td')].map(td => td && td.innerHTML.trim())
+      return {
+        name,
+        effect,
+        tier1,
+        tier2,
+        tier3
+      }
+    })
+  }
+
   const introText = document.querySelector('p').innerText
 
-  const [passiveTable, activeTable] = [...document.querySelectorAll('.fandom-table')]
-  const passiveTableRows = [...passiveTable.querySelectorAll('tr')]
-  const passivePerks = passiveTableRows.map(tr => {
-    const [name, effect, tier1, tier2, tier3] = [...tr.querySelectorAll('td')].map(td => td && td.innerHTML.trim())
-    return {
-      name,
-      effect,
-      tier1,
-      tier2,
-      tier3
-    }
-  })
-
-  const activeTableRows = [...activeTable.querySelectorAll('tr')]
-  const activePerks = activeTableRows.map(tr => {
-    const [name, effect] = [...tr.querySelectorAll('td')].map(td => td && td.innerHTML.trim())
-    return {
-      name,
-      effect,
-    }
-  })
+  const [passiveTable, exclusivePassiveTable, activeTable] = [...document.querySelectorAll('.mw-collapsible.fandom-table')]
+  const passivePerks = scrapTable(passiveTable)
+  const exclusivePassivePerks = scrapTable(exclusivePassiveTable)
+  const activePerks = scrapTable(activeTable)
 
   const buffsAndStacksText = document.querySelector('#Buffs_and_stacks').parentElement.nextElementSibling.innerHTML
 
   return {
     introText,
-    passivePerks,
+    passivePerks: [...passivePerks, ...exclusivePassivePerks],
     activePerks,
     buffsAndStacksText
   }
