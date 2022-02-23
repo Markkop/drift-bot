@@ -1,5 +1,5 @@
 {
-  "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enchanting the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
+  "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
   "passivePerks": [
     {},
     {
@@ -116,10 +116,10 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases Armor",
-      "tier1": "",
-      "tier2": "",
-      "tier3": ""
+      "effect": "Increases armor based on tier.",
+      "tier1": "100",
+      "tier2": "200",
+      "tier3": "300"
     },
     {},
     {
@@ -147,7 +147,7 @@
     {},
     {
       "name": "Banshee's Bellow",
-      "effect": ""
+      "effect": "When struck cause [150% AP stagger] in a [5m AoE]. (15s CD)"
     },
     {
       "name": "Blood Thief",
@@ -195,7 +195,7 @@
     },
     {
       "name": "Flare",
-      "effect": ""
+      "effect": "Attacks cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)"
     },
     {
       "name": "Flow State",
