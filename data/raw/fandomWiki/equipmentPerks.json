@@ -1,31 +1,33 @@
 {
   "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
   "passivePerks": [
-    {},
+    {
+      "name": "Effect"
+    },
     {
       "name": "Well Rounded",
-      "effect": "increases Attack/Constitution/Affinity by",
+      "effect": "increases Attack, Constitution, and Affinity by",
       "tier1": "10",
       "tier2": "??",
-      "tier3": "??"
+      "tier3": "15"
     },
     {
       "name": "Warlock",
-      "effect": "increases Attack/Affinity by",
+      "effect": "increases Attack and Affinity by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??"
     },
     {
       "name": "Brawler",
-      "effect": "increases Attack/Constitution by",
+      "effect": "increases Attack and Constitution by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??"
     },
     {
       "name": "Exemplar",
-      "effect": "increases Affinity/Constitution by",
+      "effect": "increases Affinity and Constitution by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??"
@@ -38,7 +40,7 @@
       "tier3": "30"
     },
     {
-      "name": "Braniac",
+      "name": "Brainiac",
       "effect": "increases Affinity by",
       "tier1": "24",
       "tier2": "36",
@@ -67,7 +69,7 @@
     },
     {
       "name": "Sadistic",
-      "effect": "Increases Crit Chance/Crit Power by",
+      "effect": "Increases Crit Chance and Crit Power by",
       "tier1": "",
       "tier2": "",
       "tier3": ""
@@ -116,10 +118,10 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier.",
-      "tier1": "100",
-      "tier2": "200",
-      "tier3": "300"
+      "effect": "Increases armor based on tier. (does not actually increase armor)",
+      "tier1": "",
+      "tier2": "",
+      "tier3": ""
     },
     {},
     {
@@ -141,6 +143,11 @@
       "name": "Bastion",
       "effect": "slightly increases Constitution by",
       "tier1": "10"
+    },
+    {
+      "name": "Ferocious",
+      "effect": "Moderately increases Attack by",
+      "tier1": "20"
     }
   ],
   "activePerks": [
@@ -175,7 +182,7 @@
     },
     {
       "name": "Death's Chariot",
-      "effect": "On kill, grants [+5%] movement speed for [?s].  Stacks to a maximum of +15%"
+      "effect": "On kill, grants [+5%] movement speed for [30s]. (Cooldown: [10s]) Stacks to a maximum of +15%"
     },
     {
       "name": "Deep Breathing",

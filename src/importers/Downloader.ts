@@ -1,5 +1,6 @@
 import axios, { AxiosInstance } from 'axios'
-import scrapEquipmentPerks from '../scrappers/fandomWiki'
+import scrapEquipmentPerks from '../scrappers/fandomWiki/equipmentPerks'
+import scrapCookingItems from '../scrappers/fandomWiki/cookingItems'
 import scrapEquipmentSynthesis from '../scrappers/ez'
 import { saveFile } from '../utils/files'
 
@@ -20,6 +21,9 @@ export default class Downloader {
   public async scrapFandomWikiWebsite() {
     const { equipmentPerks } = await scrapEquipmentPerks()
     saveFile(equipmentPerks, `${this.downloadFolder}/fandomWiki/equipmentPerks.json`)
+
+    const { items: cookingItems } = await scrapCookingItems()
+    saveFile(cookingItems, `${this.downloadFolder}/fandomWiki/cookingItems.json`)
   }
 
   public async getCookingList() {

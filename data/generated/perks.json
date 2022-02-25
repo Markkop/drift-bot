@@ -39,7 +39,7 @@
     },
     {
       "name": "Death's Chariot",
-      "effect": "On kill, grants [+5%] movement speed for [?s].  Stacks to a maximum of +15%",
+      "effect": "On kill, grants [+5%] movement speed for [30s]. (Cooldown: [10s]) Stacks to a maximum of +15%",
       "type": "active"
     },
     {
@@ -143,16 +143,20 @@
       "type": "active"
     },
     {
+      "name": "Effect",
+      "type": "passive"
+    },
+    {
       "name": "Well Rounded",
-      "effect": "increases Attack/Constitution/Affinity by",
+      "effect": "increases Attack, Constitution, and Affinity by",
       "tier1": "10",
       "tier2": "??",
-      "tier3": "??",
+      "tier3": "15",
       "type": "passive"
     },
     {
       "name": "Warlock",
-      "effect": "increases Attack/Affinity by",
+      "effect": "increases Attack and Affinity by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??",
@@ -160,7 +164,7 @@
     },
     {
       "name": "Brawler",
-      "effect": "increases Attack/Constitution by",
+      "effect": "increases Attack and Constitution by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??",
@@ -168,7 +172,7 @@
     },
     {
       "name": "Exemplar",
-      "effect": "increases Affinity/Constitution by",
+      "effect": "increases Affinity and Constitution by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??",
@@ -183,7 +187,7 @@
       "type": "passive"
     },
     {
-      "name": "Braniac",
+      "name": "Brainiac",
       "effect": "increases Affinity by",
       "tier1": "24",
       "tier2": "36",
@@ -216,7 +220,7 @@
     },
     {
       "name": "Sadistic",
-      "effect": "Increases Crit Chance/Crit Power by",
+      "effect": "Increases Crit Chance and Crit Power by",
       "tier1": "",
       "tier2": "",
       "tier3": "",
@@ -272,10 +276,10 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier.",
-      "tier1": "100",
-      "tier2": "200",
-      "tier3": "300",
+      "effect": "Increases armor based on tier. (does not actually increase armor)",
+      "tier1": "",
+      "tier2": "",
+      "tier3": "",
       "type": "passive"
     },
     {
@@ -300,6 +304,12 @@
       "name": "Bastion",
       "effect": "slightly increases Constitution by",
       "tier1": "10",
+      "type": "passive"
+    },
+    {
+      "name": "Ferocious",
+      "effect": "Moderately increases Attack by",
+      "tier1": "20",
       "type": "passive"
     }
   ]

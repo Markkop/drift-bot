@@ -13,6 +13,19 @@ async function scrapEquipmentPerksPage(page) {
 }
 
 function getEquipmentSynthesis() {
+  function scrapExclusiveTable(table: Element) {
+    return [...table.querySelectorAll('tr')].map(tr => {
+      const [,name, effect, tier1, tier2, tier3] = [...tr.querySelectorAll('td')].map(td => td && td.innerHTML.trim())
+      return {
+        name,
+        effect,
+        tier1,
+        tier2,
+        tier3
+      }
+    })
+  }
+
   function scrapTable(table: Element) {
     return [...table.querySelectorAll('tr')].map(tr => {
       const [name, effect, tier1, tier2, tier3] = [...tr.querySelectorAll('td')].map(td => td && td.innerHTML.trim())
@@ -30,7 +43,7 @@ function getEquipmentSynthesis() {
 
   const [passiveTable, exclusivePassiveTable, activeTable] = [...document.querySelectorAll('.mw-collapsible.fandom-table')]
   const passivePerks = scrapTable(passiveTable)
-  const exclusivePassivePerks = scrapTable(exclusivePassiveTable)
+  const exclusivePassivePerks = scrapExclusiveTable(exclusivePassiveTable)
   const activePerks = scrapTable(activeTable)
 
   const buffsAndStacksText = document.querySelector('#Buffs_and_stacks').parentElement.nextElementSibling.innerHTML
