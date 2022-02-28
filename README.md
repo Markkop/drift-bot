@@ -8,7 +8,7 @@
 Drift is a [Discord Bot](https://discord.js.org/#/) that provides information about the [Zenith VR MMORPG](https://zenithmmo.com/) game.
 
 Most of the data is currently obtained from [EZ's Website](https://ez.community/)  
-Equipment Perk data is being retrived from [ZenithMMO Fandom Wiki](https://zenithmmo.fandom.com/wiki/Equipment_Perks)  
+Equipment Perk data is being retrieved from [ZenithMMO Fandom Wiki](https://zenithmmo.fandom.com/wiki/Equipment_Perks)  
 
 If you wish to **add this bot** to your server, access this [link](https://discord.com/api/oauth2/authorize?client_id=942472521725407302&permissions=139586825280&scope=bot%20applications.commands).  
 
