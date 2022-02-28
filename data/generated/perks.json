@@ -73,13 +73,18 @@
       "type": "active"
     },
     {
+      "name": "Godking's Passion",
+      "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP).",
+      "type": "active"
+    },
+    {
       "name": "Helping Hand",
       "effect": "",
       "type": "active"
     },
     {
       "name": "Inner Rage",
-      "effect": "",
+      "effect": "On being hit, gain [3%] Crit chance for [15s]. Stacks 2 times. (Cooldown: 10s)",
       "type": "active"
     },
     {
@@ -159,7 +164,7 @@
       "effect": "increases Attack and Affinity by",
       "tier1": "14",
       "tier2": "??",
-      "tier3": "??",
+      "tier3": "21",
       "type": "passive"
     },
     {
@@ -276,10 +281,10 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier. (does not actually increase armor)",
-      "tier1": "",
-      "tier2": "",
-      "tier3": "",
+      "effect": "Increases armor based on tier. (does not visibly increase armor)",
+      "tier1": "100",
+      "tier2": "200",
+      "tier3": "300",
       "type": "passive"
     },
     {
@@ -310,6 +315,12 @@
       "name": "Ferocious",
       "effect": "Moderately increases Attack by",
       "tier1": "20",
+      "type": "passive"
+    },
+    {
+      "name": "Bolster",
+      "effect": "Moderately increases Support by",
+      "tier1": "24",
       "type": "passive"
     }
   ]

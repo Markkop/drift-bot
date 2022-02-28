@@ -16,7 +16,7 @@
       "effect": "increases Attack and Affinity by",
       "tier1": "14",
       "tier2": "??",
-      "tier3": "??"
+      "tier3": "21"
     },
     {
       "name": "Brawler",
@@ -118,10 +118,10 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier. (does not actually increase armor)",
-      "tier1": "",
-      "tier2": "",
-      "tier3": ""
+      "effect": "Increases armor based on tier. (does not visibly increase armor)",
+      "tier1": "100",
+      "tier2": "200",
+      "tier3": "300"
     },
     {},
     {
@@ -148,6 +148,11 @@
       "name": "Ferocious",
       "effect": "Moderately increases Attack by",
       "tier1": "20"
+    },
+    {
+      "name": "Bolster",
+      "effect": "Moderately increases Support by",
+      "tier1": "24"
     }
   ],
   "activePerks": [
@@ -209,12 +214,16 @@
       "effect": ""
     },
     {
+      "name": "Godking's Passion",
+      "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP)."
+    },
+    {
       "name": "Helping Hand",
       "effect": ""
     },
     {
       "name": "Inner Rage",
-      "effect": ""
+      "effect": "On being hit, gain [3%] Crit chance for [15s]. Stacks 2 times. (Cooldown: 10s)"
     },
     {
       "name": "Killer's Edge",
