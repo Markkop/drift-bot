@@ -73,6 +73,11 @@
       "type": "active"
     },
     {
+      "name": "Godking's Ascension",
+      "effect": "on kill, +[10%] AP for [10s]. (Cooldown:[10s]).",
+      "type": "active"
+    },
+    {
       "name": "Godking's Passion",
       "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP).",
       "type": "active"
@@ -138,7 +143,7 @@
       "type": "active"
     },
     {
-      "name": "Super  Heated",
+      "name": "Super Heated",
       "effect": "On hit, deals [100% AP] damage every [1s] for [5s]. Hit can be blaster or ability (even a non-damaging ability). I believe tiers 2 and 3 will increase the damage ticks beyond 5.",
       "type": "active"
     },
@@ -146,10 +151,6 @@
       "name": "Thick As Thieves",
       "effect": "When hitting an ally, grant them [+15%] movement speed for [30s]. Can be applied via splash damage. Buff is not applied to self. Will stack with other speed buffs.",
       "type": "active"
-    },
-    {
-      "name": "Effect",
-      "type": "passive"
     },
     {
       "name": "Well Rounded",
