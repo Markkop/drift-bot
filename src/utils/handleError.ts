@@ -60,7 +60,7 @@ export function handleReactionError (error: Error, reaction: MessageReaction, us
   const errorText = error.toString() || ''
   const channelName = reaction.message.channel instanceof DMChannel ? '' : reaction.message.channel.id
   console.log(`${errorText} on guild "${reaction.message.guild.name}", channel "${channelName}" by ${user.username}`)
-  if (errorText.includes('TypeError')) {
+  if (errorText.includes('TypeError') || errorText.includes('RangeError') || errorText.includes('DiscordAPIError')) {
     console.log(error)
   }
 }
