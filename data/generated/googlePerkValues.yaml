@@ -1,0 +1,209 @@
+synonym:
+  entities:
+    banshee_s_bellow:
+      synonyms:
+      - Banshee's Bellow
+      - Banshee
+      - Banshee Bellow
+      - Bellow
+    blood_thief:
+      synonyms:
+      - Blood Thief
+      - Blood
+    body_meld:
+      synonyms:
+      - Body Meld
+      - Body
+    brain_freeze:
+      synonyms:
+      - Brain Freeze
+      - Brain
+      - Freeze
+    breath_stealer:
+      synonyms:
+      - Breath Stealer
+      - Breath
+    bunker:
+      synonyms:
+      - Bunker
+    chrono_skip:
+      synonyms:
+      - Chrono Skip
+      - Chrono
+      - Skip
+    death_s_chariot:
+      synonyms:
+      - Death's Chariot
+      - Death
+      - Death Chariot
+      - Chariot
+    deep_breathing:
+      synonyms:
+      - Deep Breathing
+      - Deep
+      - Breathing
+    defiant:
+      synonyms:
+      - Defiant
+    essence_thief:
+      synonyms:
+      - Essence Thief
+    fighting_spirit:
+      synonyms:
+      - Fighting Spirit
+      - Fighting
+    flare:
+      synonyms:
+      - Flare
+    flow_state:
+      synonyms:
+      - Flow State
+      - State
+    godking_s_ascension:
+      synonyms:
+      - Godking's Ascension
+      - Godking Ascension
+      - Ascension
+    godking_s_passion:
+      synonyms:
+      - Godking's Passion
+      - Godking Passion
+      - Passion
+    helping_hand:
+      synonyms:
+      - Helping Hand
+      - Helping
+      - Hand
+    inner_rage:
+      synonyms:
+      - Inner Rage
+      - Inner
+      - Rage
+    killer_s_edge:
+      synonyms:
+      - Killer's Edge
+      - Killer
+      - Killer Edge
+      - Edge
+    kingmaker:
+      synonyms:
+      - Kingmaker
+    marrow_stealer:
+      synonyms:
+      - Marrow Stealer
+      - Marrow
+    mind_meld:
+      synonyms:
+      - Mind Meld
+      - Mind
+    pain_link:
+      synonyms:
+      - Pain Link
+      - Pain
+      - Link
+    pit_fighter:
+      synonyms:
+      - Pit Fighter
+      - Pit
+      - Fighter
+    scatter:
+      synonyms:
+      - Scatter
+    shelter:
+      synonyms:
+      - Shelter
+    soul_shock:
+      synonyms:
+      - Soul Shock
+      - Soul
+      - Shock
+    spirit_meld:
+      synonyms:
+      - Spirit Meld
+    super_heated:
+      synonyms:
+      - Super Heated
+      - Super
+      - Heated
+    thick_as_thieves:
+      synonyms:
+      - Thick As Thieves
+      - Thick
+      - Thieves
+    well_rounded:
+      synonyms:
+      - Well Rounded
+      - Well
+      - Rounded
+    warlock:
+      synonyms:
+      - Warlock
+    brawler:
+      synonyms:
+      - Brawler
+    exemplar:
+      synonyms:
+      - Exemplar
+    mighty:
+      synonyms:
+      - Mighty
+    brainiac:
+      synonyms:
+      - Brainiac
+    vanguard:
+      synonyms:
+      - Vanguard
+    eagle_eye:
+      synonyms:
+      - Eagle Eye
+      - Eagle
+      - Eye
+    slayer:
+      synonyms:
+      - Slayer
+    sadistic:
+      synonyms:
+      - Sadistic
+    sprinter:
+      synonyms:
+      - Sprinter
+    oxygenator:
+      synonyms:
+      - Oxygenator
+    lightfoot:
+      synonyms:
+      - Lightfoot
+    steadfast:
+      synonyms:
+      - Steadfast
+    automend:
+      synonyms:
+      - Automend
+    essence_flow:
+      synonyms:
+      - Essence Flow
+    shell:
+      synonyms:
+      - Shell
+    robust:
+      synonyms:
+      - Robust
+    assistant:
+      synonyms:
+      - Assistant
+    brutal:
+      synonyms:
+      - Brutal
+    bastion:
+      synonyms:
+      - Bastion
+    ferocious:
+      synonyms:
+      - Ferocious
+    bolster:
+      synonyms:
+      - Bolster
+    fortified:
+      synonyms:
+      - Fortified
+  matchType: EXACT_MATCH

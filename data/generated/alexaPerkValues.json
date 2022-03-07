@@ -1,0 +1,364 @@
+[
+  {
+    "name": {
+      "value": "Banshee's Bellow",
+      "synonyms": [
+        "Banshee",
+        "Banshee Bellow",
+        "Bellow"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Blood Thief",
+      "synonyms": [
+        "Blood"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Body Meld",
+      "synonyms": [
+        "Body"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Brain Freeze",
+      "synonyms": [
+        "Brain",
+        "Freeze"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Breath Stealer",
+      "synonyms": [
+        "Breath"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Bunker"
+    }
+  },
+  {
+    "name": {
+      "value": "Chrono Skip",
+      "synonyms": [
+        "Chrono",
+        "Skip"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Death's Chariot",
+      "synonyms": [
+        "Death",
+        "Death Chariot",
+        "Chariot"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Deep Breathing",
+      "synonyms": [
+        "Deep",
+        "Breathing"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Defiant"
+    }
+  },
+  {
+    "name": {
+      "value": "Essence Thief"
+    }
+  },
+  {
+    "name": {
+      "value": "Fighting Spirit",
+      "synonyms": [
+        "Fighting"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Flare"
+    }
+  },
+  {
+    "name": {
+      "value": "Flow State",
+      "synonyms": [
+        "State"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Godking's Ascension",
+      "synonyms": [
+        "Godking Ascension",
+        "Ascension"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Godking's Passion",
+      "synonyms": [
+        "Godking Passion",
+        "Passion"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Helping Hand",
+      "synonyms": [
+        "Helping",
+        "Hand"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Inner Rage",
+      "synonyms": [
+        "Inner",
+        "Rage"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Killer's Edge",
+      "synonyms": [
+        "Killer",
+        "Killer Edge",
+        "Edge"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Kingmaker"
+    }
+  },
+  {
+    "name": {
+      "value": "Marrow Stealer",
+      "synonyms": [
+        "Marrow"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Mind Meld",
+      "synonyms": [
+        "Mind"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Pain Link",
+      "synonyms": [
+        "Pain",
+        "Link"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Pit Fighter",
+      "synonyms": [
+        "Pit",
+        "Fighter"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Scatter"
+    }
+  },
+  {
+    "name": {
+      "value": "Shelter"
+    }
+  },
+  {
+    "name": {
+      "value": "Soul Shock",
+      "synonyms": [
+        "Soul",
+        "Shock"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Spirit Meld"
+    }
+  },
+  {
+    "name": {
+      "value": "Super Heated",
+      "synonyms": [
+        "Super",
+        "Heated"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Thick As Thieves",
+      "synonyms": [
+        "Thick",
+        "Thieves"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Well Rounded",
+      "synonyms": [
+        "Well",
+        "Rounded"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Warlock"
+    }
+  },
+  {
+    "name": {
+      "value": "Brawler"
+    }
+  },
+  {
+    "name": {
+      "value": "Exemplar"
+    }
+  },
+  {
+    "name": {
+      "value": "Mighty"
+    }
+  },
+  {
+    "name": {
+      "value": "Brainiac"
+    }
+  },
+  {
+    "name": {
+      "value": "Vanguard"
+    }
+  },
+  {
+    "name": {
+      "value": "Eagle Eye",
+      "synonyms": [
+        "Eagle",
+        "Eye"
+      ]
+    }
+  },
+  {
+    "name": {
+      "value": "Slayer"
+    }
+  },
+  {
+    "name": {
+      "value": "Sadistic"
+    }
+  },
+  {
+    "name": {
+      "value": "Sprinter"
+    }
+  },
+  {
+    "name": {
+      "value": "Oxygenator"
+    }
+  },
+  {
+    "name": {
+      "value": "Lightfoot"
+    }
+  },
+  {
+    "name": {
+      "value": "Steadfast"
+    }
+  },
+  {
+    "name": {
+      "value": "Automend"
+    }
+  },
+  {
+    "name": {
+      "value": "Essence Flow"
+    }
+  },
+  {
+    "name": {
+      "value": "Shell"
+    }
+  },
+  {
+    "name": {
+      "value": "Robust"
+    }
+  },
+  {
+    "name": {
+      "value": "Assistant"
+    }
+  },
+  {
+    "name": {
+      "value": "Brutal"
+    }
+  },
+  {
+    "name": {
+      "value": "Bastion"
+    }
+  },
+  {
+    "name": {
+      "value": "Ferocious"
+    }
+  },
+  {
+    "name": {
+      "value": "Bolster"
+    }
+  },
+  {
+    "name": {
+      "value": "Fortified"
+    }
+  }
+]

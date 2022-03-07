@@ -13,6 +13,7 @@ async function importData() {
   await downloader.scrapFandomWikiWebsite()
   const itemsGenerator = new ItemsGenerator(downloadFolder, generatedFolder)
   itemsGenerator.mountPerks()
+  itemsGenerator.mountAssistantsPerkValues()
 
   const endTime = performance.now();
   const time = ((endTime - startTime) / 1000) / 60

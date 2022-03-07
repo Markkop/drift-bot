@@ -42,3 +42,10 @@ function normalizeCharacters (str) {
 export function hasTextOrNormalizedTextIncluded (text: string, textToBeIncluded: string): boolean {
   return normalizeCharacters(text).includes(normalizeCharacters(textToBeIncluded))
 }
+
+export const toSnakeCase = (string: string) => {
+  return string.replace(/\W+/g, " ")
+    .split(/ |\B(?=[A-Z])/)
+    .map(word => word.toLowerCase())
+    .join('_');
+};

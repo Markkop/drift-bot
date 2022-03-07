@@ -1,9 +1,7 @@
 {
   "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
   "passivePerks": [
-    {
-      "name": "Effect"
-    },
+    {},
     {
       "name": "Well Rounded",
       "effect": "increases Attack, Constitution, and Affinity by",
@@ -111,14 +109,14 @@
     },
     {
       "name": "Essence Flow",
-      "effect": "Increases resource regeneration",
+      "effect": "Increases resource regeneration (may not be working)",
       "tier1": "",
       "tier2": "",
       "tier3": ""
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier. (does not visibly increase armor)",
+      "effect": "Increases Armor (may not be working)",
       "tier1": "100",
       "tier2": "200",
       "tier3": "300"
@@ -151,8 +149,13 @@
     },
     {
       "name": "Bolster",
-      "effect": "Moderately increases Support by",
+      "effect": "Moderately increases Affinity by",
       "tier1": "24"
+    },
+    {
+      "name": "Fortified",
+      "effect": "Moderately increases Constitution by",
+      "tier1": "20"
     }
   ],
   "activePerks": [
@@ -211,11 +214,15 @@
     },
     {
       "name": "Flow State",
-      "effect": ""
+      "effect": "On ability use, [10%] chance to gain [10%] rage/mana. (Cooldown: 5s)"
+    },
+    {
+      "name": "Godking's Ascension",
+      "effect": "On kill, +[100] AP for [10s]. Kill causes a [300% AP Damage] explosion in a [4m AoE] (Cooldown:[10s])."
     },
     {
       "name": "Godking's Passion",
-      "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP)."
+      "effect": "On ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP)."
     },
     {
       "name": "Helping Hand",
@@ -235,7 +242,7 @@
     },
     {
       "name": "Marrow Stealer",
-      "effect": ""
+      "effect": "on kill, +[10%] AP for [5s]. No cooldown. Stacks if two or more gear triggers"
     },
     {
       "name": "Mind Meld",
@@ -243,7 +250,7 @@
     },
     {
       "name": "Pain Link",
-      "effect": "Reflects damage taken to an enemy\n<p>Possibly instead - On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.\n</p>"
+      "effect": "On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect."
     },
     {
       "name": "Pit Fighter",
@@ -266,7 +273,7 @@
       "effect": "On kill, grants [+100/130/130] Attack for [30s] (Cooldown: [10s]) Stacks 3 times. (affects Crit Chance and AP)."
     },
     {
-      "name": "Super  Heated",
+      "name": "Super Heated",
       "effect": "On hit, deals [100% AP] damage every [1s] for [5s]. Hit can be blaster or ability (even a non-damaging ability). I believe tiers 2 and 3 will increase the damage ticks beyond 5."
     },
     {
