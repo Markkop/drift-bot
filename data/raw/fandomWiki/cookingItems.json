@@ -21,10 +21,7 @@
   {
     "title": "Blood Orange",
     "additionalText": "This item can be purchased for 60 from Cookies Cooking Kiosk in Zenith City next to Brimm, or found in the following locations:",
-    "sources": [
-      "Fractured Plains",
-      "Galian Valley"
-    ]
+    "sources": []
   },
   {
     "title": "Carrot",
@@ -73,15 +70,6 @@
     "title": "Milk",
     "additionalText": "This item can be purchased for 12 from Cookies Cooking Kiosk in Zenith City next to Brimm",
     "sources": []
-  },
-  {
-    "title": "Orange",
-    "additionalText": "",
-    "sources": [
-      "Store",
-      "Fractured Plains",
-      "Galian Valley"
-    ]
   },
   {
     "title": "Papaya",

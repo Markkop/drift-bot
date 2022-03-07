@@ -1,5 +1,5 @@
-import { saveFile, openFile, saveJsonAsYamlFile } from '../utils/files'
-import { toSnakeCase } from '../utils/strings'
+import { saveFile, openFile } from '../utils/files'
+import pluralize from 'pluralize'
 
 export default class ItemsGenerator {
   private equipmentSynthesisByLocation
@@ -39,19 +39,99 @@ export default class ItemsGenerator {
       ...this.perksData.passivePerks.filter(this.filterByExistingName).map(this.mapToIncludeType('passive'))
     ]
 
-    const perksWithIds = perks.map(perk => ({
-      id: toSnakeCase(perk.name),
-      ...perk
-    }))
-
     const perksData = {
       introText: this.perksData.introText,
       buffsAndStacksText: this.perksData.buffsAndStacksText,
-      perks: perksWithIds
+      perks: perks
     }
     console.log('Saving perks.json file...')
     saveFile(perksData, `${this.generatedFolderPath}/perks.json`)
     console.log('perks.json file saved!')
+  }
+
+  private extractSynonymsFromName(resources, nameProperty: string) {
+   return resources.map(perk => {
+      const perkSynonyms = perk[nameProperty].split(' ').reduce((synonyms, partOfPerkName) => {
+        if (partOfPerkName.length <= 2) return synonyms
+        if (partOfPerkName.includes("'s")) return [...synonyms, partOfPerkName.replace("'s", ''), perk[nameProperty].replace("'s", '')]
+        if (partOfPerkName === perk[nameProperty]) return synonyms
+        return [...synonyms, partOfPerkName]
+      }, [])
+      return {
+        value: perk[nameProperty],
+        synonyms: perkSynonyms.length > 1 ? perkSynonyms : undefined
+      }
+    })
+  }
+  
+  private addPluralSynonyms(resources) {
+    return resources.map(resource => {
+      const plural = pluralize(resource.value)
+      if (!plural) {
+        return resource
+      }
+      const existingSynonyms = resource.synonyms
+      return {
+        ...resource,
+        synonyms: existingSynonyms ? [
+          ...existingSynonyms,
+          plural
+        ] : [plural]
+      }
+    })
+  }
+
+  private removeDuplicateSynonyms(resources) {
+    // Create a list with synonyms of all resources
+    const synonyms = resources.reduce((allSynonyms, perk) => {
+      const perkSynonyms = perk.synonyms
+      if (!perkSynonyms) return allSynonyms
+      return [...allSynonyms, ...perkSynonyms]
+    }, [])
+
+    // Remove duplicate synonyms
+    resources.forEach(perk => {
+      if (!perk.synonyms) return
+      perk.synonyms = perk.synonyms.filter(perk => {
+        return synonyms.filter(syn => syn === perk).length <= 1
+      })
+      if (!perk.synonyms.length) {
+        perk.synonyms = undefined
+      }
+    })
+
+    return resources
+  }
+
+  private moveInvalidNamesToTheEnd(resources) {
+    // Move names with 's to the final because the generated Google model uses the first values as
+    // types for training phrases and those woth 's are not supported
+    resources.sort((a, b) => {
+      const aIncludes = a.value.includes("'s")
+      const bIncludes = b.value.includes("'s")
+      if (aIncludes && !bIncludes) return 1
+      if (!aIncludes && bIncludes) return -1
+      return 0
+    })
+    return resources
+  }
+
+  private saveJovoModel(resourcesEntityTypes, resourceName) {
+    const jovoModelPath = "../jovo-essence-helper/models/en.json"
+    const jovoModel = openFile(jovoModelPath)
+    const newJovoModel = {
+      ...jovoModel,
+      entityTypes: {
+        ...jovoModel.entityTypes,
+        [resourceName]: {
+          values: resourcesEntityTypes
+        }
+      }
+    }
+
+    console.log(`Saving ${jovoModelPath} file...`)
+    saveFile(newJovoModel, jovoModelPath)
+    console.log(`${jovoModelPath} file saved!`)
   }
 
   // While I don't make an exclusive project for data importation for Alexa and Google skills, this will stay here
@@ -62,64 +142,20 @@ export default class ItemsGenerator {
       ...this.perksData.passivePerks.filter(this.filterByExistingName).map(this.mapToIncludeType('passive'))
     ]
 
-    const alexaPerkValues = perks.map(perk => {
-      const perkSynonyms = perk.name.split(' ').reduce((synonyms, partOfPerkName) => {
-        if (partOfPerkName.length <= 2) return synonyms
-        if (partOfPerkName.includes("'s")) return [...synonyms, partOfPerkName.replace("'s", ''), perk.name.replace("'s", '')]
-        if (partOfPerkName === perk.name) return synonyms
-        return [...synonyms, partOfPerkName]
-      }, [])
-      return {
-        name: {
-          value: perk.name,
-          id: perk.id,
-          synonyms: perkSynonyms.length > 1 ? perkSynonyms : undefined
-        }
-      }
-    })
-    const synonyms = alexaPerkValues.reduce((allSynonyms, perk) => {
-      const perkSynonyms = perk.name.synonyms
-      if (!perkSynonyms) return allSynonyms
-      return [...allSynonyms, ...perkSynonyms]
-    }, [])
-
-    alexaPerkValues.forEach(perk => {
-      if (!perk.name.synonyms) return
-      perk.name.synonyms = perk.name.synonyms.filter(perk => {
-        return synonyms.filter(syn => syn === perk).length <= 1
-      })
-      if (!perk.name.synonyms.length) {
-        perk.name.synonyms = undefined
-      }
-    })
-
-    const googlePerkValues = alexaPerkValues.reduce((perks, perk) => {
-      const synonyms = perk.name.synonyms ? perk.name.synonyms : []
-      perks[toSnakeCase(perk.name.value)] = {
-        synonyms: [perk.name.value, ...synonyms]
-      }
-      return perks
-    }, {})
-
-    const googlePerkList = {
-      synonym: {
-        entities: googlePerkValues,
-        matchType: 'EXACT_MATCH'
-      }
-    }
-
-
-    console.log('Saving alexaPerkValues.json file...')
-    saveFile(alexaPerkValues, `${this.generatedFolderPath}/alexaPerkValues.json`)
-    console.log('alexaPerkValues.json file saved!')
-
-    console.log('Saving googlePerkValues.yaml file...')
-    saveJsonAsYamlFile(googlePerkList, `${this.generatedFolderPath}/googlePerkValues.yaml`)
-    console.log('googlePerkValues.yaml file saved!')
-
-    console.log('Saving jovoValues.yaml file...')
-    saveFile(alexaPerkValues.map(value => value.name), `${this.generatedFolderPath}/jovoValues.json`)
-    console.log('jovoValues.yaml file saved!')
+    const perkEntityTypesWithSynonyms = this.extractSynonymsFromName(perks, 'name')
+    const perkEntityTypesWithUniqueSynonyms = this.removeDuplicateSynonyms(perkEntityTypesWithSynonyms)
+    const orderedPerkEntityTypes = this.moveInvalidNamesToTheEnd(perkEntityTypesWithUniqueSynonyms)
+    this.saveJovoModel(orderedPerkEntityTypes, 'perk')
   }
 
+  public mountAssistantsDiscoverableValues() {
+    console.log('Mounting Assistants discoverables...')
+    const discoverables = openFile('data/raw/fandomWiki/cookingItems.json')
+
+    const discoverableEntityTypesWithSynonyms = this.extractSynonymsFromName(discoverables, 'title')
+    const discoverableEntityTypesWithSynonymsAndPlural = this.addPluralSynonyms(discoverableEntityTypesWithSynonyms)
+    const discoverableEntityTypesWithUniqueSynonyms = this.removeDuplicateSynonyms(discoverableEntityTypesWithSynonymsAndPlural)
+    const orderedDiscoverableEntityTypes = this.moveInvalidNamesToTheEnd(discoverableEntityTypesWithUniqueSynonyms)
+    this.saveJovoModel(orderedDiscoverableEntityTypes, 'discoverable')
+  }
 }

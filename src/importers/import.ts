@@ -10,10 +10,11 @@ async function importData() {
   const downloader = new Downloader(downloadFolder)
   // await downloader.scrapEzWebsite()
   // await downloader.getAndSaveCookingRecipes()
-  await downloader.scrapFandomWikiWebsite()
+  // await downloader.scrapFandomWikiWebsite()
   const itemsGenerator = new ItemsGenerator(downloadFolder, generatedFolder)
   itemsGenerator.mountPerks()
   itemsGenerator.mountAssistantsPerkValues()
+  itemsGenerator.mountAssistantsDiscoverableValues()
 
   const endTime = performance.now();
   const time = ((endTime - startTime) / 1000) / 60
