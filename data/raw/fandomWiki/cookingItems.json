@@ -22,6 +22,7 @@
     "title": "Blood Orange",
     "additionalText": "This item can be purchased for 60 from Cookies Cooking Kiosk in Zenith City next to Brimm, or found in the following locations:",
     "sources": [
+      "Store",
       "Fractured Plains",
       "Galian Valley"
     ]
@@ -42,8 +43,8 @@
     ]
   },
   {
-    "title": "Dragon fruit",
-    "additionalText": "Dragon fruits can be found in the following locations:",
+    "title": "Dragonfruit",
+    "additionalText": "Dragonfruits can be found in the following locations:",
     "sources": [
       "Amarite Forest",
       "Scarlet Vale",
@@ -75,20 +76,11 @@
     "sources": []
   },
   {
-    "title": "Orange",
-    "additionalText": "",
-    "sources": [
-      "Store",
-      "Fractured Plains",
-      "Galian Valley"
-    ]
-  },
-  {
     "title": "Papaya",
     "additionalText": "Papayas can be found in the following locations:",
     "sources": [
       "Radiant Coast",
-      "Turtle Top"
+      "Turtletop"
     ]
   },
   {
@@ -103,7 +95,7 @@
     "title": "Pineapple",
     "additionalText": "Pineapples can be found in the following locations:",
     "sources": [
-      "Turtle Top",
+      "Turtletop",
       "Tangled Cove"
     ]
   },
@@ -120,6 +112,7 @@
     "title": "Purple Mushroom",
     "additionalText": "Purple Mushrooms can be found in the following locations:",
     "sources": [
+      "The Underside",
       "Scarlet Vale",
       "Sporewood",
       "Ruler's Reach",

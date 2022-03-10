@@ -4,7 +4,7 @@
   "perks": [
     {
       "name": "Banshee's Bellow",
-      "effect": "When struck cause [150% AP stagger] in a [5m AoE]. (15s CD)",
+      "effect": "On being hit, cause [150% AP stagger] in a [5m AoE]. (15s CD)",
       "type": "active"
     },
     {
@@ -19,12 +19,12 @@
     },
     {
       "name": "Brain Freeze",
-      "effect": "(possibly increases stagger)",
+      "effect": "On hit, increase stagger (possibly incorrect/incomplete)",
       "type": "active"
     },
     {
       "name": "Breath Stealer",
-      "effect": "",
+      "effect": "On being hit, restore/gain stamina (possibly incorrect/incomplete)",
       "type": "active"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "name": "Essence Thief",
-      "effect": "On kill, restores [+?] Mana/Rage.",
+      "effect": "On kill, restores Mana/Rage by [1%] of AP. No cooldown.",
       "type": "active"
     },
     {
@@ -64,27 +64,27 @@
     },
     {
       "name": "Flare",
-      "effect": "Attacks cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)",
+      "effect": "On hit, cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)",
       "type": "active"
     },
     {
       "name": "Flow State",
-      "effect": "",
+      "effect": "On ability use, [10%] chance to gain [10%] rage/mana. (Cooldown: 5s)",
       "type": "active"
     },
     {
       "name": "Godking's Ascension",
-      "effect": "on kill, +[10%] AP for [10s]. (Cooldown:[10s]).",
+      "effect": "On kill, +[100] AP for [10s]. Kill causes a [300% AP Damage] explosion in a [4m AoE] (Cooldown:[10s]).",
       "type": "active"
     },
     {
       "name": "Godking's Passion",
-      "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP).",
+      "effect": "On ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP).",
       "type": "active"
     },
     {
       "name": "Helping Hand",
-      "effect": "",
+      "effect": "On hitting an ally, grant them HP (possibly incorrect/incomplete)",
       "type": "active"
     },
     {
@@ -99,12 +99,12 @@
     },
     {
       "name": "Kingmaker",
-      "effect": "When hitting an ally, grant them [15% AP] for [5s]. (Cooldown: [20s])",
+      "effect": "On hitting an ally, grant them [15% AP] for [5s]. (Cooldown: [20s])",
       "type": "active"
     },
     {
       "name": "Marrow Stealer",
-      "effect": "",
+      "effect": "On kill, +[10%] AP for [5s]. No cooldown. Stacks if two or more gear triggers",
       "type": "active"
     },
     {
@@ -114,12 +114,12 @@
     },
     {
       "name": "Pain Link",
-      "effect": "Reflects damage taken to an enemy\n<p>Possibly instead - On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.\n</p>",
+      "effect": "On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.",
       "type": "active"
     },
     {
       "name": "Pit Fighter",
-      "effect": "On being hit, chance to gain [3%] Constitution for [15s]. Stacks 3 times. (Cooldown: 5s)",
+      "effect": "On being hit, [10%] chance to gain [3%] Constitution for [15s]. Stacks 3 times. (Cooldown: 5s)",
       "type": "active"
     },
     {
@@ -129,12 +129,12 @@
     },
     {
       "name": "Shelter",
-      "effect": "",
+      "effect": "On being hit, increase HP regen. (possibly incorrect/incomplete)",
       "type": "active"
     },
     {
       "name": "Soul Shock",
-      "effect": "On hit, deal an additional [+25% AP] damage as a separate instance (Cooldown: [?s]). Procs shortly after the initial hit. Could instead be chance to deal damage, but without a cooldown.",
+      "effect": "On hit, deal an additional [+25% AP] damage as a separate instance (Cooldown: [?s]). Procs shortly after the initial hit. Could instead be chance to deal damage, but without a cooldown. This could also chain to other nearby enemies.",
       "type": "active"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "name": "Thick As Thieves",
-      "effect": "When hitting an ally, grant them [+15%] movement speed for [30s]. Can be applied via splash damage. Buff is not applied to self. Will stack with other speed buffs.",
+      "effect": "On hitting an ally, grant them [+15%] movement speed for [30s]. Can be applied via splash damage. Buff is not applied to self. Will stack with other speed buffs.",
       "type": "active"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "name": "Essence Flow",
-      "effect": "Increases resource regeneration",
+      "effect": "Increases resource regeneration (may not be working)",
       "tier1": "",
       "tier2": "",
       "tier3": "",
@@ -282,7 +282,7 @@
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier. (does not visibly increase armor)",
+      "effect": "Increases Armor (may not be working)",
       "tier1": "100",
       "tier2": "200",
       "tier3": "300",
@@ -320,8 +320,14 @@
     },
     {
       "name": "Bolster",
-      "effect": "Moderately increases Support by",
-      "tier1": "24",
+      "effect": "Moderately increases Affinity by",
+      "tier1": "20",
+      "type": "passive"
+    },
+    {
+      "name": "Fortified",
+      "effect": "Moderately increases Constitution by",
+      "tier1": "20",
       "type": "passive"
     }
   ]

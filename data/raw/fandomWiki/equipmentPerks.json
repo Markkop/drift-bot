@@ -1,9 +1,7 @@
 {
   "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
   "passivePerks": [
-    {
-      "name": "Effect"
-    },
+    {},
     {
       "name": "Well Rounded",
       "effect": "increases Attack, Constitution, and Affinity by",
@@ -111,14 +109,14 @@
     },
     {
       "name": "Essence Flow",
-      "effect": "Increases resource regeneration",
+      "effect": "Increases resource regeneration (may not be working)",
       "tier1": "",
       "tier2": "",
       "tier3": ""
     },
     {
       "name": "Shell",
-      "effect": "Increases armor based on tier. (does not visibly increase armor)",
+      "effect": "Increases Armor (may not be working)",
       "tier1": "100",
       "tier2": "200",
       "tier3": "300"
@@ -151,15 +149,20 @@
     },
     {
       "name": "Bolster",
-      "effect": "Moderately increases Support by",
-      "tier1": "24"
+      "effect": "Moderately increases Affinity by",
+      "tier1": "20"
+    },
+    {
+      "name": "Fortified",
+      "effect": "Moderately increases Constitution by",
+      "tier1": "20"
     }
   ],
   "activePerks": [
     {},
     {
       "name": "Banshee's Bellow",
-      "effect": "When struck cause [150% AP stagger] in a [5m AoE]. (15s CD)"
+      "effect": "On being hit, cause [150% AP stagger] in a [5m AoE]. (15s CD)"
     },
     {
       "name": "Blood Thief",
@@ -171,11 +174,11 @@
     },
     {
       "name": "Brain Freeze",
-      "effect": "(possibly increases stagger)"
+      "effect": "On hit, increase stagger (possibly incorrect/incomplete)"
     },
     {
       "name": "Breath Stealer",
-      "effect": ""
+      "effect": "On being hit, restore/gain stamina (possibly incorrect/incomplete)"
     },
     {
       "name": "Bunker",
@@ -199,7 +202,7 @@
     },
     {
       "name": "Essence Thief",
-      "effect": "On kill, restores [+?] Mana/Rage."
+      "effect": "On kill, restores Mana/Rage by [1%] of AP. No cooldown."
     },
     {
       "name": "Fighting Spirit",
@@ -207,19 +210,23 @@
     },
     {
       "name": "Flare",
-      "effect": "Attacks cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)"
+      "effect": "On hit, cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)"
     },
     {
       "name": "Flow State",
-      "effect": ""
+      "effect": "On ability use, [10%] chance to gain [10%] rage/mana. (Cooldown: 5s)"
+    },
+    {
+      "name": "Godking's Ascension",
+      "effect": "On kill, +[100] AP for [10s]. Kill causes a [300% AP Damage] explosion in a [4m AoE] (Cooldown:[10s])."
     },
     {
       "name": "Godking's Passion",
-      "effect": "on ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP)."
+      "effect": "On ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP)."
     },
     {
       "name": "Helping Hand",
-      "effect": ""
+      "effect": "On hitting an ally, grant them HP (possibly incorrect/incomplete)"
     },
     {
       "name": "Inner Rage",
@@ -231,11 +238,11 @@
     },
     {
       "name": "Kingmaker",
-      "effect": "When hitting an ally, grant them [15% AP] for [5s]. (Cooldown: [20s])"
+      "effect": "On hitting an ally, grant them [15% AP] for [5s]. (Cooldown: [20s])"
     },
     {
       "name": "Marrow Stealer",
-      "effect": ""
+      "effect": "On kill, +[10%] AP for [5s]. No cooldown. Stacks if two or more gear triggers"
     },
     {
       "name": "Mind Meld",
@@ -243,11 +250,11 @@
     },
     {
       "name": "Pain Link",
-      "effect": "Reflects damage taken to an enemy\n<p>Possibly instead - On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.\n</p>"
+      "effect": "On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect."
     },
     {
       "name": "Pit Fighter",
-      "effect": "On being hit, chance to gain [3%] Constitution for [15s]. Stacks 3 times. (Cooldown: 5s)"
+      "effect": "On being hit, [10%] chance to gain [3%] Constitution for [15s]. Stacks 3 times. (Cooldown: 5s)"
     },
     {
       "name": "Scatter",
@@ -255,23 +262,23 @@
     },
     {
       "name": "Shelter",
-      "effect": ""
+      "effect": "On being hit, increase HP regen. (possibly incorrect/incomplete)"
     },
     {
       "name": "Soul Shock",
-      "effect": "On hit, deal an additional [+25% AP] damage as a separate instance (Cooldown: [?s]). Procs shortly after the initial hit. Could instead be chance to deal damage, but without a cooldown."
+      "effect": "On hit, deal an additional [+25% AP] damage as a separate instance (Cooldown: [?s]). Procs shortly after the initial hit. Could instead be chance to deal damage, but without a cooldown. This could also chain to other nearby enemies."
     },
     {
       "name": "Spirit Meld",
       "effect": "On kill, grants [+100/130/130] Attack for [30s] (Cooldown: [10s]) Stacks 3 times. (affects Crit Chance and AP)."
     },
     {
-      "name": "Super  Heated",
+      "name": "Super Heated",
       "effect": "On hit, deals [100% AP] damage every [1s] for [5s]. Hit can be blaster or ability (even a non-damaging ability). I believe tiers 2 and 3 will increase the damage ticks beyond 5."
     },
     {
       "name": "Thick As Thieves",
-      "effect": "When hitting an ally, grant them [+15%] movement speed for [30s]. Can be applied via splash damage. Buff is not applied to self. Will stack with other speed buffs."
+      "effect": "On hitting an ally, grant them [+15%] movement speed for [30s]. Can be applied via splash damage. Buff is not applied to self. Will stack with other speed buffs."
     }
   ],
   "buffsAndStacksText": "Some active perks stack in an unusual way; rather than having an explicit set maximum number of stacks they will instead have a cooldown which is shorter than the effects duration, thus indirectly limiting the number of stacks you can get at once. The reason it is done this way is likely to prevent the player from being able to get maximum stacks too quickly by meeting the activation requirements repeatedly in a short time frame.\n"
