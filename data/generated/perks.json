@@ -1,20 +1,50 @@
 {
-  "introText": "Weapons and armor can have special perks on them. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
+  "introText": "Weapons and armor can have special perks on them which benefit the player. \"Uncommon\" or better equipment have some perks by default (the amount depends on the rarity of the item), and more perks can be added by enhancing the item (perks are added at +4, +8, and +10). Perks can be Tier 1, 2 or 3 depending on item quality (regular/superior/flawless) on generation, with higher tiers being better (perks added by enchanting are always Tier 1 regardless of item quality). Common equipment can have perks added by enhancing them to +4 (cannot be enhanced beyond +5).",
   "buffsAndStacksText": "Some active perks stack in an unusual way; rather than having an explicit set maximum number of stacks they will instead have a cooldown which is shorter than the effects duration, thus indirectly limiting the number of stacks you can get at once. The reason it is done this way is likely to prevent the player from being able to get maximum stacks too quickly by meeting the activation requirements repeatedly in a short time frame.\n",
   "perks": [
-    {
-      "name": "Banshee's Bellow",
-      "effect": "On being hit, cause [150% AP stagger] in a [5m AoE]. (15s CD)",
-      "type": "active"
-    },
     {
       "name": "Blood Thief",
       "effect": "On kill, restores HP by [100%] of AP.",
       "type": "active"
     },
     {
+      "name": "Death's Chariot",
+      "effect": "On kill, grants [+5%] movement speed for [30s]. (Cooldown: [10s]) Stacks to a maximum of +15%",
+      "type": "active"
+    },
+    {
+      "name": "Fighting Spirit",
+      "effect": "On fully charged weapon hit, heals self for 75HP",
+      "type": "active"
+    },
+    {
+      "name": "Inner Rage",
+      "effect": "On being hit, gain [+3] Crit chance for [15s]. Stacks 2 times. (Cooldown: 10s)",
+      "type": "active"
+    },
+    {
+      "name": "Pit Fighter",
+      "effect": "On being hit, [10%] chance to gain [3%] max Health (doesn't heal you) for [15s]. Stacks indefinitely, no cooldown. The boost is based on your max health before any bonuses from constitution/equipment perks.",
+      "type": "active"
+    },
+    {
       "name": "Body Meld",
       "effect": "On kill, grants [+100/130/130] Constitution for [30s] (Cooldown: [10s]) Stacks 3 times at kill 3 and kill 5 . (affects max HP and AP).",
+      "type": "active"
+    },
+    {
+      "name": "Deep Breathing",
+      "effect": "On ability use, Increases AP by [2%] for [15s] (Cooldown: [5s]).",
+      "type": "active"
+    },
+    {
+      "name": "Godking's Ascension",
+      "effect": "On kill, +[100] AP for [10s]. Kill causes a [300% AP Damage] explosion in a [4m AoE] (Cooldown:[10s]).",
+      "type": "active"
+    },
+    {
+      "name": "Banshee's Bellow",
+      "effect": "On being hit, cause [150% AP stagger] in a [5m AoE]. (15s CD)",
       "type": "active"
     },
     {
@@ -38,16 +68,6 @@
       "type": "active"
     },
     {
-      "name": "Death's Chariot",
-      "effect": "On kill, grants [+5%] movement speed for [30s]. (Cooldown: [10s]) Stacks to a maximum of +15%",
-      "type": "active"
-    },
-    {
-      "name": "Deep Breathing",
-      "effect": "On ability use, increases AP by [2%] for [15s] (Cooldown: [5s]).",
-      "type": "active"
-    },
-    {
       "name": "Defiant",
       "effect": "On ability use, restores HP by [35%] of AP. (Cooldown: [5s]). Does not require hitting an enemy with the ability.",
       "type": "active"
@@ -55,11 +75,6 @@
     {
       "name": "Essence Thief",
       "effect": "On kill, restores Mana/Rage by [1%] of AP. No cooldown.",
-      "type": "active"
-    },
-    {
-      "name": "Fighting Spirit",
-      "effect": "On fully charged weapon hit, heals self for 75HP",
       "type": "active"
     },
     {
@@ -73,11 +88,6 @@
       "type": "active"
     },
     {
-      "name": "Godking's Ascension",
-      "effect": "On kill, +[100] AP for [10s]. Kill causes a [300% AP Damage] explosion in a [4m AoE] (Cooldown:[10s]).",
-      "type": "active"
-    },
-    {
       "name": "Godking's Passion",
       "effect": "On ability use, +[4%] AP for [30s].  (Cooldown:[6s]). Maximum 5 stack (+20% AP).",
       "type": "active"
@@ -85,11 +95,6 @@
     {
       "name": "Helping Hand",
       "effect": "On hitting an ally, grant them HP (possibly incorrect/incomplete)",
-      "type": "active"
-    },
-    {
-      "name": "Inner Rage",
-      "effect": "On being hit, gain [3%] Crit chance for [15s]. Stacks 2 times. (Cooldown: 10s)",
       "type": "active"
     },
     {
@@ -115,11 +120,6 @@
     {
       "name": "Pain Link",
       "effect": "On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.",
-      "type": "active"
-    },
-    {
-      "name": "Pit Fighter",
-      "effect": "On being hit, [10%] chance to gain [3%] Constitution for [15s]. Stacks 3 times. (Cooldown: 5s)",
       "type": "active"
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "name": "Well Rounded",
-      "effect": "increases Attack, Constitution, and Affinity by",
+      "effect": "Increases Attack, Constitution, and Affinity by",
       "tier1": "10",
       "tier2": "??",
       "tier3": "15",
@@ -162,7 +162,7 @@
     },
     {
       "name": "Warlock",
-      "effect": "increases Attack and Affinity by",
+      "effect": "Increases Attack and Affinity by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "21",
@@ -170,15 +170,15 @@
     },
     {
       "name": "Brawler",
-      "effect": "increases Attack and Constitution by",
+      "effect": "Increases Attack and Constitution by",
       "tier1": "14",
-      "tier2": "??",
+      "tier2": "21",
       "tier3": "??",
       "type": "passive"
     },
     {
       "name": "Exemplar",
-      "effect": "increases Affinity and Constitution by",
+      "effect": "Increases Affinity and Constitution by",
       "tier1": "14",
       "tier2": "??",
       "tier3": "??",
@@ -186,7 +186,7 @@
     },
     {
       "name": "Mighty",
-      "effect": "increases Attack by",
+      "effect": "Increases Attack by",
       "tier1": "20",
       "tier2": "30",
       "tier3": "30",
@@ -194,7 +194,7 @@
     },
     {
       "name": "Brainiac",
-      "effect": "increases Affinity by",
+      "effect": "Increases Affinity by",
       "tier1": "24",
       "tier2": "36",
       "tier3": "36",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Vanguard",
-      "effect": "increases Constitution by",
+      "effect": "Increases Constitution by",
       "tier1": "24",
       "tier2": "36",
       "tier3": "36",
@@ -210,10 +210,10 @@
     },
     {
       "name": "Eagle Eye",
-      "effect": "increases Crit Chance by",
-      "tier1": "4%",
-      "tier2": "?%",
-      "tier3": "7%",
+      "effect": "Increases Crit Chance by",
+      "tier1": "4",
+      "tier2": "?",
+      "tier3": "7",
       "type": "passive"
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "name": "Sprinter",
-      "effect": "increases Stamina by",
+      "effect": "Increases Stamina by",
       "tier1": "1",
       "tier2": "",
       "tier3": "",
@@ -290,43 +290,43 @@
     },
     {
       "name": "Robust",
-      "effect": "slightly increases Health by",
+      "effect": "slightly Increases Health by",
       "tier1": "100",
       "type": "passive"
     },
     {
       "name": "Assistant",
-      "effect": "slightly increases Affinity by",
+      "effect": "slightly Increases Affinity by",
       "tier1": "10",
       "type": "passive"
     },
     {
       "name": "Brutal",
-      "effect": "slightly increases Attack by",
+      "effect": "slightly Increases Attack by",
       "tier1": "10",
       "type": "passive"
     },
     {
       "name": "Bastion",
-      "effect": "slightly increases Constitution by",
+      "effect": "slightly Increases Constitution by",
       "tier1": "10",
       "type": "passive"
     },
     {
       "name": "Ferocious",
-      "effect": "Moderately increases Attack by",
+      "effect": "Moderately Increases Attack by",
       "tier1": "20",
       "type": "passive"
     },
     {
       "name": "Bolster",
-      "effect": "Moderately increases Affinity by",
+      "effect": "Moderately Increases Affinity by",
       "tier1": "20",
       "type": "passive"
     },
     {
       "name": "Fortified",
-      "effect": "Moderately increases Constitution by",
+      "effect": "Moderately Increases Constitution by",
       "tier1": "20",
       "type": "passive"
     }
